@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # to run this script you need to have pycurl downloaded (https://github.com/pycurl/pycurl)
+#add path and your redcap token 
+#run in terminal window: python beam_clinical_assessment_scores_to_csv.py
+
 import pycurl, cStringIO
 import string
 import collections
