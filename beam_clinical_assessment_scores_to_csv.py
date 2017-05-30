@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 # to run this script you need to have pycurl downloaded (https://github.com/pycurl/pycurl)
-
-
-
 import pycurl, cStringIO
 import string
 import collections
@@ -11,14 +8,10 @@ import csv
 from itertools import groupby
 import pandas
 
-
 #SET PATH VARIABLE FOR CSV OUTPUT HERE #example: '/Volumes/Smurf-Village/home/daelsaid/redcap_report.csv'
 redcap_report_output='SET PATH HERE'
 
-
-
 #pulling data from clinical assessment scores - a redcap survey based on all the different clinical survey arms in the project 
-
 buf = cStringIO.StringIO()
 data = {
     'token': 'ADD YOUR REDCAP SPECIFIC TOKEN',
@@ -52,7 +45,6 @@ for subj_lines in subj_clinical_report_prep2:
     lines=subj_lines.split()
     for idx, val in enumerate(lines):
         subj_clinical_report_corrected.append(val.split(','))
-
 
 #create a dataframe to hold parsed and split output
 clinical_assessment_scores_df = pandas.DataFrame(data=subj_clinical_report_corrected)
