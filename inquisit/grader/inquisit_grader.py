@@ -47,7 +47,7 @@ def grader(all_subj_data_csv, data_output_raw_csv, data_output_scored_csv,word_c
                                           'hat','farmer','nose','turkey', 'color', 'house', 'river'],
 
              'rey_list_presentation_2a': ['pipe', 'wall', 'alarm', 'sugar', 'student', 'mother','star', 'painting',
-                                          'bag', 'wheat', 'mouth', 'chicken', 'sound' 'door', 'stream'],
+                                          'bag', 'wheat', 'mouth', 'chicken', 'sound', 'door', 'stream'],
 
              'rey_list_presentation_3a': ['violin', 'tree', 'scarf', 'ham', 'suitcase', 'cousin', 'earth', 'stairs',
                                           'dog', 'banana', 'town', 'radio', 'hunter', 'bucket', 'field'],

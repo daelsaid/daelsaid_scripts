@@ -3,6 +3,7 @@ import argparse
 import datetime
 from inquisit_demo_summary import demo_and_summary
 from inquisit_grader import grader
+from inquisit_demo_summary_newageranges import demo_and_summary_new
 
 format = "%Y_%m_%d"
 current_date=datetime.datetime.today()
@@ -27,8 +28,11 @@ final_summary_csv = args.summary_data
 
 demo_and_summary(all_subj_data_csv, args.demo_data, args.summary_data, os.path.join(args.output_csv_location, 'frequency_counts'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location, 'subj_age_agerange_gender'+ '_'+ date + '.csv'), os.path.join(args.output_csv_location, 'sr_responses'+ '_'+ date + '.csv'), os.path.join(args.output_csv_location, 'summary_ant_scores'+ '_'+ date + '.csv'))
 
-grader(all_subj_data_csv, os.path.join(args.output_csv_location,'raw_data' + '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data' + '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations' + '_'+ date + '.csv'),0)
+demo_and_summary_new(all_subj_data_csv, args.demo_data,os.path.join(args.output_csv_location, 'subj_age_agerange_gender_new_age_bins'+ '_'+ date + '.csv'))
 
-grader(all_subj_data_csv,os.path.join(args.output_csv_location,'raw_data_primacy'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data_primacy'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations_primacy'+ '_'+ date + '.csv'),1)
 
-grader(all_subj_data_csv,os.path.join(args.output_csv_location,'raw_data_recency'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data_recency'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations_recency'+ '_'+ date + '.csv'),2)
+grader(all_subj_data_csv, os.path.join(args.output_csv_location,'parsed_raw_data' + '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data' + '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations' + '_'+ date + '.csv'),0)
+
+grader(all_subj_data_csv,os.path.join(args.output_csv_location,'parsed_raw_data_primacy'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data_primacy'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations_primacy'+ '_'+ date + '.csv'),1)
+
+grader(all_subj_data_csv,os.path.join(args.output_csv_location,'parsed_raw_data_recency'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data_recency'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations_recency'+ '_'+ date + '.csv'),2)
