@@ -7,11 +7,11 @@ import urlparse
 
 
 url='https://stanford-etkinlab.sona-systems.com'
-username='delsaid'
-password='dawlat12'
+username=''
+password=''
 
-admin=dawlattest
-passwd=nRMaGyn4
+admin=''
+passwd=''
 
 br = mechanize.Browser()
 
