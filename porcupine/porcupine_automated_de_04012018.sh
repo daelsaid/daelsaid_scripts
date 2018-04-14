@@ -40,7 +40,7 @@ final_subj_id=best_${subj_id}_tp${tp}_rc${rc_id}_porcupine
 
 mri_convert ${main_mri_dir}/${group}/tp${tp}/${subj_id_mri}/sag*bravo_8channel/${series_number}/I0001.dcm ${visor_dir}/InputT1/${visor_input_nii}
 
-/Users/lillyel-said/Documents/MATLAB/scripts/VisorTargeting/porcupine.sh
+cd /Users/lillyel-said/Documents/MATLAB/scripts/VisorTargeting/; ./porcupine.sh
 #/Volumes/Smurf-Village/home/daelsaid/submit_porcupine.txt fsl_sub -q rush.q -N best_porcupine submit_porcupine.sh fsl_sub -q rush.q -N best_porcupine submit_porcupine.sh
 
 

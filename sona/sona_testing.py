@@ -56,8 +56,9 @@ html_tbl_body = slot_rows[1:]
 text=[]
 for x in html_tbl_body:
 	text.append(x.get_text())
-   
+
 clean_text=[]
 for x,y in enumerate(text):
-       print x,y.format()
-       clean_text.append(y.format())
+    print y
+    clean_text.append(y.format())
+    print y.format()
