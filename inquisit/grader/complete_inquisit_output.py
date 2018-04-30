@@ -1,8 +1,10 @@
 import os
 import argparse
+import numpy
 import datetime
 from inquisit_demo_summary import demo_and_summary
 from inquisit_grader import grader
+from composite_scores import composite_scores
 from inquisit_demo_summary_newageranges import demo_and_summary_new
 
 format = "%Y_%m_%d"
@@ -36,3 +38,9 @@ grader(all_subj_data_csv, os.path.join(args.output_csv_location,'parsed_raw_data
 grader(all_subj_data_csv,os.path.join(args.output_csv_location,'parsed_raw_data_primacy'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data_primacy'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations_primacy'+ '_'+ date + '.csv'),1)
 
 grader(all_subj_data_csv,os.path.join(args.output_csv_location,'parsed_raw_data_recency'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'scored_data_recency'+ '_'+ date + '.csv'),os.path.join(args.output_csv_location,'word_correlations_recency'+ '_'+ date + '.csv'),2)
+
+scored_data=os.path.join(args.output_csv_location,'scored_data' + '_'+ date + '.csv')
+
+composite_scores(1, scored_data, os.path.join(args.output_csv_location,'composite_scores_vakil'+ '_'+ date + '.csv'))
+
+
