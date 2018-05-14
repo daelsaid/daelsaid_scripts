@@ -43,11 +43,11 @@
 <data>
 / separatefiles = true
 / columns = (
-build, 
+build,
 computer.platform,
 date,
 time,
-subject, 
+subject,
 values.blockcount,
 blockcode,
 values.trialcount,
@@ -58,52 +58,52 @@ values.recall_firstcharlatency,
 values.recall_lastcharlatency,
 values.listbrecall_firstcharlatency,
 values.listbrecall_lastcharlatency,
-expressions.trial_recall_word_latency, 
+expressions.trial_recall_word_latency,
 expressions.listb_recall_word_latency,
-,values.cuecondition, 
-values.cuevalidity, 
-values.flankercongruence, 
-values.targetposition, 
-values.targetdirection, 
+,values.cuecondition,
+values.cuevalidity,
+values.flankercongruence,
+values.targetposition,
+values.targetdirection,
 values.locationcongruence,
-values.CT_ISI, 
-parameters.target_duration, 
-parameters.responsewindow, 
+values.CT_ISI,
+parameters.target_duration,
+parameters.responsewindow,
 values.TC_ISI,
-parameters.min_validlatency, 
-correct, 
+parameters.min_validlatency,
+correct,
 values.correct
-picture.flanker1.currentitem, 
-picture.flanker2.currentitem, 
-picture.target.currentitem, 
-picture.flanker3.currentitem, 
-picture.flanker4.currentitem, 
-values.target_x, 
-values.flanker1_x, 
+picture.flanker1.currentitem,
+picture.flanker2.currentitem,
+picture.target.currentitem,
+picture.flanker3.currentitem,
+picture.flanker4.currentitem,
+values.target_x,
+values.flanker1_x,
 values.cue1_x,
-values.length1, 
-values.length2, 
+values.length1,
+values.length2,
 values.length3,
 latency
-)		
+)
 </data>
 
 <summarydata>
 /columns = (
-script.startdate, 
-script.starttime, 
-script.subjectid, 
-computer.platform, 
-script.elapsedtime, 
-values.demo_completed, 
-values.end_survey_completed, 
+script.startdate,
+script.starttime,
+script.subjectid,
+computer.platform,
+script.elapsedtime,
+values.demo_completed,
+values.end_survey_completed,
 values.trialcount,
-expressions.overallpercentcorrect, 
+expressions.overallpercentcorrect,
 expressions.meanRT,
 expressions.stdRT,
 expressions.gad_7_total,
 expressions.phq_total,
-expressions.pcl_4_total, 
+expressions.pcl_4_total,
 expressions.pcl_total_hybridscore_corrected,
 expressions.pcl_total_hybridscore_uncorrected,
 )
@@ -323,8 +323,8 @@ expressions.pcl_total_hybridscore_uncorrected,
 / gad_7_sum = 0
 / phq_sum = 0
 / typing_end = 0
-/ end_survey_completed = 0; 
-/ experiment_completed = 0; 
+/ end_survey_completed = 0;
+/ experiment_completed = 0;
 / typing_test_error=0;
 / typing_next_trial1=0
 / typing_next_trial2=0
@@ -355,7 +355,7 @@ expressions.pcl_total_hybridscore_uncorrected,
 / pcl_4_total = values.pcl_4_sum
 / phq_total = values.phq_sum
 / gad_7_total = values.gad_7_sum
-	
+
 / overallpercentcorrect = 100* (values.countcorrect/values.trialcount)
 / meanRT = values.sumrt/values.countcorrect
 / stdRT = sqrt((values.sstotal - (values.countcorrect * (expressions.meanRT * expressions.meanRT))) / (values.countcorrect - 1))
@@ -412,7 +412,7 @@ Instructions
 </text>
 
 <text trial1_pres_instruct4>
-/items  = ("This task may seem a bit difficult in the beginning, but usually it gets easier as we go along. 
+/items  = ("This task may seem a bit difficult in the beginning, but usually it gets easier as we go along.
 ~nYou are going to see words appear on the screen one by one.
 ~nAfter all the words have finished appearing on the screen, you will be asked to type in as many of the words as you can remember.")
 /halign  = center
@@ -535,7 +535,7 @@ Instructions
 
 <item rey_list_form2_b>
 /1 = "bench"
-/2 = "officer" 
+/2 = "officer"
 /3 = "cage"
 /4 = "sock"
 /5 = "fridge"
@@ -706,7 +706,7 @@ Setting the text for each list
 
 
 <trial rey_list_presentation_1a>
-/ stimulusframes = [1= reylist_1a] 
+/ stimulusframes = [1= reylist_1a]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -714,7 +714,7 @@ Setting the text for each list
 </trial>
 
 <trial rey_list_presentation_1b>
-/ stimulusframes = [1= reylist_1b] 
+/ stimulusframes = [1= reylist_1b]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -723,7 +723,7 @@ Setting the text for each list
 
 
 <trial rey_list_presentation_2a>
-/ stimulusframes = [1= reylist_2a] 
+/ stimulusframes = [1= reylist_2a]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -731,7 +731,7 @@ Setting the text for each list
 </trial>
 
 <trial rey_list_presentation_2b>
-/ stimulusframes = [1= reylist_2b] 
+/ stimulusframes = [1= reylist_2b]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -739,7 +739,7 @@ Setting the text for each list
 </trial>
 
 <trial rey_list_presentation_3a>
-/ stimulusframes = [1= reylist_3a] 
+/ stimulusframes = [1= reylist_3a]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -747,7 +747,7 @@ Setting the text for each list
 </trial>
 
 <trial rey_list_presentation_3b>
-/ stimulusframes = [1= reylist_3b] 
+/ stimulusframes = [1= reylist_3b]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -755,7 +755,7 @@ Setting the text for each list
 </trial>
 
 <trial rey_list_presentation_4a>
-/ stimulusframes = [1= reylist_4a] 
+/ stimulusframes = [1= reylist_4a]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -763,7 +763,7 @@ Setting the text for each list
 </trial>
 
 <trial rey_list_presentation_4b>
-/ stimulusframes = [1= reylist_4b] 
+/ stimulusframes = [1= reylist_4b]
 / errormessage = false
 / recorddata = true
 / trialduration = 1750
@@ -1325,12 +1325,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial1recall1 != 0 ]
 / ontrialbegin=[
 	values.trial1recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.trial1recall1=openended.trial1_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial1_recall_response1.firstcharlatency; 
+	values.trial1recall1=openended.trial1_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial1_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -1353,9 +1353,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial1recall2 != 0 ]
 / ontrialend=[
-	values.trial1recall2=openended.trial1_recall_response2.response; 
+	values.trial1recall2=openended.trial1_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial1_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial1_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -1390,8 +1390,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.trial1recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1412,14 +1412,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial1recall4 != 0 ]
 / ontrialend=[
-	values.trial1recall4=openended.trial1_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial1_recall_response4.firstcharlatency; 
+	values.trial1recall4=openended.trial1_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial1_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1440,14 +1440,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial1recall5 != 0 ]
 / ontrialend=[
-	values.trial1recall5=openended.trial1_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial1_recall_response5.firstcharlatency; 
+	values.trial1recall5=openended.trial1_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial1_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -1469,14 +1469,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial1recall6 != 0 ]
 / ontrialend=[
-	values.trial1recall6=openended.trial1_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial1_recall_response6.firstcharlatency; 
+	values.trial1recall6=openended.trial1_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial1_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1499,14 +1499,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial1recall7 != 0 ]
 / ontrialend=[
-	values.trial1recall7=openended.trial1_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial1_recall_response7.firstcharlatency; 
+	values.trial1recall7=openended.trial1_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial1_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response7.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial1recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1527,14 +1527,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial1recall8 != 0 ]
 / ontrialend=[
-	values.trial1recall8=openended.trial1_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response8.firstcharlatency; 
+	values.trial1recall8=openended.trial1_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response8.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial1recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1556,14 +1556,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial1recall9 != 0 ]
 / ontrialend=[
-	values.trial1recall9=openended.trial1_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response9.firstcharlatency; 
+	values.trial1recall9=openended.trial1_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response9.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1581,19 +1581,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial1recall10 != 0 ]
 /ontrialend=[
-	values.trial1recall10=openended.trial1_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response10.firstcharlatency; 
+	values.trial1recall10=openended.trial1_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response10.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial1recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1617,14 +1617,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial1recall11 != 0 ]
 /ontrialend=[
-	values.trial1recall11=openended.trial1_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response11.firstcharlatency; 
+	values.trial1recall11=openended.trial1_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response11.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial1recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1645,14 +1645,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial1recall12 != 0 ]
 / ontrialend=[
-	values.trial1recall12=openended.trial1_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response12.firstcharlatency; 
+	values.trial1recall12=openended.trial1_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response12.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -1675,14 +1675,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial1recall13 != 0 ]
 / ontrialend=[
-	values.trial1recall13=openended.trial1_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response13.firstcharlatency; 
+	values.trial1recall13=openended.trial1_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response13.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial1recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1703,14 +1703,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,]
 / beginresponsetime = 0
 / skip = [ values.trial1recall14 != 0 ]
 / ontrialend=[
-	values.trial1recall14=openended.trial1_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response14.firstcharlatency; 
+	values.trial1recall14=openended.trial1_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response14.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1732,14 +1732,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial1recall15 != 0 ]
 / ontrialend=[
-	values.trial1recall15=openended.trial1_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response15.firstcharlatency; 
+	values.trial1recall15=openended.trial1_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response15.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial1recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1761,14 +1761,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial1recall16 != 0 ]
 / ontrialend=[
-	values.trial1recall16=openended.trial1_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response16.firstcharlatency; 
+	values.trial1recall16=openended.trial1_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response16.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1790,14 +1790,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial1recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend=[
-	values.trial1recall17=openended.trial1_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response17.firstcharlatency; 
+	values.trial1recall17=openended.trial1_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response17.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1819,14 +1819,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial1recall18 != 0 ]
 / ontrialend=[
-	values.trial1recall18=openended.trial1_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response18.firstcharlatency; 
+	values.trial1recall18=openended.trial1_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response18.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -1849,14 +1849,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial1recall19 != 0 ]
 / ontrialend=[
-	values.trial1recall19=openended.trial1_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response19.firstcharlatency; 
+	values.trial1recall19=openended.trial1_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response19.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -1872,20 +1872,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes=[1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial1recall20 != 0 ]
 / ontrialend=[
-	values.trial1recall20=openended.trial1_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial1_recall_response20.firstcharlatency; 
+	values.trial1recall20=openended.trial1_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial1_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial1_recall_response20.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial1recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -2004,12 +2004,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial2recall1 != 0 ]
 / ontrialbegin=[
 	values.trial2recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.trial2recall1=openended.trial2_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial2_recall_response1.firstcharlatency; 
+	values.trial2recall1=openended.trial2_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial2_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -2032,9 +2032,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall2 != 0 ]
 / ontrialend=[
-	values.trial2recall2=openended.trial2_recall_response2.response; 
+	values.trial2recall2=openended.trial2_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial2_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial2_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -2069,8 +2069,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.trial2recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2091,14 +2091,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall4 != 0 ]
 / ontrialend=[
-	values.trial2recall4=openended.trial2_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial2_recall_response4.firstcharlatency; 
+	values.trial2recall4=openended.trial2_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial2_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2119,14 +2119,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall5 != 0 ]
 / ontrialend=[
-	values.trial2recall5=openended.trial2_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial2_recall_response5.firstcharlatency; 
+	values.trial2recall5=openended.trial2_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial2_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -2148,14 +2148,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall6 != 0 ]
 / ontrialend=[
-	values.trial2recall6=openended.trial2_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial2_recall_response6.firstcharlatency; 
+	values.trial2recall6=openended.trial2_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial2_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2178,14 +2178,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial2recall7 != 0 ]
 / ontrialend=[
-	values.trial2recall7=openended.trial2_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial2_recall_response7.firstcharlatency; 
+	values.trial2recall7=openended.trial2_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial2_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response7.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial2recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2206,14 +2206,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall8 != 0 ]
 / ontrialend=[
-	values.trial2recall8=openended.trial2_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response8.firstcharlatency; 
+	values.trial2recall8=openended.trial2_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response8.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial2recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2235,14 +2235,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial2recall9 != 0 ]
 / ontrialend=[
-	values.trial2recall9=openended.trial2_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response9.firstcharlatency; 
+	values.trial2recall9=openended.trial2_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response9.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2260,19 +2260,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial2recall10 != 0 ]
 /ontrialend=[
-	values.trial2recall10=openended.trial2_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response10.firstcharlatency; 
+	values.trial2recall10=openended.trial2_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response10.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial2recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2296,14 +2296,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial2recall11 != 0 ]
 /ontrialend=[
-	values.trial2recall11=openended.trial2_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response11.firstcharlatency; 
+	values.trial2recall11=openended.trial2_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response11.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial2recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2324,14 +2324,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall12 != 0 ]
 / ontrialend=[
-	values.trial2recall12=openended.trial2_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response12.firstcharlatency; 
+	values.trial2recall12=openended.trial2_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response12.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -2354,14 +2354,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial2recall13 != 0 ]
 / ontrialend=[
-	values.trial2recall13=openended.trial2_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response13.firstcharlatency; 
+	values.trial2recall13=openended.trial2_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response13.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial2recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2383,14 +2383,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial2recall14 != 0 ]
 / ontrialend=[
-	values.trial2recall14=openended.trial2_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response14.firstcharlatency; 
+	values.trial2recall14=openended.trial2_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response14.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2407,18 +2407,18 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1] 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial2recall15 != 0 ]
 / ontrialend=[
-	values.trial2recall15=openended.trial2_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response15.firstcharlatency; 
+	values.trial2recall15=openended.trial2_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response15.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial2recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2440,14 +2440,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial2recall16 != 0 ]
 / ontrialend=[
-	values.trial2recall16=openended.trial2_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response16.firstcharlatency; 
+	values.trial2recall16=openended.trial2_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response16.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2469,14 +2469,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial2recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend=[
-	values.trial2recall17=openended.trial2_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response17.firstcharlatency; 
+	values.trial2recall17=openended.trial2_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response17.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2498,14 +2498,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial2recall18 != 0 ]
 / ontrialend=[
-	values.trial2recall18=openended.trial2_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response18.firstcharlatency; 
+	values.trial2recall18=openended.trial2_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response18.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -2528,14 +2528,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial2recall19 != 0 ]
 / ontrialend=[
-	values.trial2recall19=openended.trial2_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response19.firstcharlatency; 
+	values.trial2recall19=openended.trial2_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response19.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2551,20 +2551,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes=[1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial2recall20 != 0 ]
 / ontrialend=[
-	values.trial2recall20=openended.trial2_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial2_recall_response20.firstcharlatency; 
+	values.trial2recall20=openended.trial2_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial2_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial2_recall_response20.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial2recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -2684,12 +2684,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial3recall1 != 0 ]
 / ontrialbegin=[
 	values.trial3recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.trial3recall1=openended.trial3_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial3_recall_response1.firstcharlatency; 
+	values.trial3recall1=openended.trial3_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial3_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -2712,9 +2712,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial3recall2 != 0 ]
 / ontrialend=[
-	values.trial3recall2=openended.trial3_recall_response2.response; 
+	values.trial3recall2=openended.trial3_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial3_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial3_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -2749,8 +2749,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.trial3recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2771,14 +2771,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial3recall4 != 0 ]
 / ontrialend=[
-	values.trial3recall4=openended.trial3_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial3_recall_response4.firstcharlatency; 
+	values.trial3recall4=openended.trial3_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial3_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2799,14 +2799,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial3recall5 != 0 ]
 / ontrialend=[
-	values.trial3recall5=openended.trial3_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial3_recall_response5.firstcharlatency; 
+	values.trial3recall5=openended.trial3_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial3_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -2828,14 +2828,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial3recall6 != 0 ]
 / ontrialend=[
-	values.trial3recall6=openended.trial3_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial3_recall_response6.firstcharlatency; 
+	values.trial3recall6=openended.trial3_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial3_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2858,14 +2858,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial3recall7 != 0 ]
 / ontrialend=[
-	values.trial3recall7=openended.trial3_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial3_recall_response7.firstcharlatency; 
+	values.trial3recall7=openended.trial3_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial3_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response7.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial3recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2886,14 +2886,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial3recall8 != 0 ]
 / ontrialend=[
-	values.trial3recall8=openended.trial3_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response8.firstcharlatency; 
+	values.trial3recall8=openended.trial3_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response8.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial3recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2915,14 +2915,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial3recall9 != 0 ]
 / ontrialend=[
-	values.trial3recall9=openended.trial3_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response9.firstcharlatency; 
+	values.trial3recall9=openended.trial3_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response9.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2940,19 +2940,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial3recall10 != 0 ]
 /ontrialend=[
-	values.trial3recall10=openended.trial3_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response10.firstcharlatency; 
+	values.trial3recall10=openended.trial3_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response10.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial3recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -2976,14 +2976,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial3recall11 != 0 ]
 /ontrialend=[
-	values.trial3recall11=openended.trial3_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response11.firstcharlatency; 
+	values.trial3recall11=openended.trial3_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response11.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial3recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3004,14 +3004,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial3recall12 != 0 ]
 / ontrialend=[
-	values.trial3recall12=openended.trial3_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response12.firstcharlatency; 
+	values.trial3recall12=openended.trial3_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response12.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -3034,14 +3034,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial3recall13 != 0 ]
 / ontrialend=[
-	values.trial3recall13=openended.trial3_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response13.firstcharlatency; 
+	values.trial3recall13=openended.trial3_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response13.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial3recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3063,14 +3063,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial3recall14 != 0 ]
 / ontrialend=[
-	values.trial3recall14=openended.trial3_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response14.firstcharlatency; 
+	values.trial3recall14=openended.trial3_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response14.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3091,14 +3091,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, ]
 / beginresponsetime = 0
 / skip = [ values.trial3recall15 != 0 ]
 / ontrialend=[
-	values.trial3recall15=openended.trial3_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response15.firstcharlatency; 
+	values.trial3recall15=openended.trial3_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response15.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial3recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3120,14 +3120,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial3recall16 != 0 ]
 / ontrialend=[
-	values.trial3recall16=openended.trial3_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response16.firstcharlatency; 
+	values.trial3recall16=openended.trial3_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response16.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3149,14 +3149,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial3recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend=[
-	values.trial3recall17=openended.trial3_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response17.firstcharlatency; 
+	values.trial3recall17=openended.trial3_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response17.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3178,14 +3178,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial3recall18 != 0 ]
 / ontrialend=[
-	values.trial3recall18=openended.trial3_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response18.firstcharlatency; 
+	values.trial3recall18=openended.trial3_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response18.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -3208,14 +3208,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial3recall19 != 0 ]
 / ontrialend=[
-	values.trial3recall19=openended.trial3_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response19.firstcharlatency; 
+	values.trial3recall19=openended.trial3_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response19.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3231,20 +3231,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes=[1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial3recall20 != 0 ]
 / ontrialend=[
-	values.trial3recall20=openended.trial3_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial3_recall_response20.firstcharlatency; 
+	values.trial3recall20=openended.trial3_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial3_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial3_recall_response20.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial3recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -3364,12 +3364,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial4recall1 != 0 ]
 / ontrialbegin=[
 	values.trial4recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.trial4recall1=openended.trial4_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial4_recall_response1.firstcharlatency; 
+	values.trial4recall1=openended.trial4_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial4_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -3391,9 +3391,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial4recall2 != 0 ]
 / ontrialend=[
-	values.trial4recall2=openended.trial4_recall_response2.response; 
+	values.trial4recall2=openended.trial4_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial4_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial4_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -3427,8 +3427,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.trial4recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3449,14 +3449,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial4recall4 != 0 ]
 / ontrialend=[
-	values.trial4recall4=openended.trial4_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial4_recall_response4.firstcharlatency; 
+	values.trial4recall4=openended.trial4_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial4_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3477,14 +3477,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial4recall5 != 0 ]
 / ontrialend=[
-	values.trial4recall5=openended.trial4_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial4_recall_response5.firstcharlatency; 
+	values.trial4recall5=openended.trial4_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial4_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -3506,14 +3506,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial4recall6 != 0 ]
 / ontrialend=[
-	values.trial4recall6=openended.trial4_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial4_recall_response6.firstcharlatency; 
+	values.trial4recall6=openended.trial4_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial4_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3536,14 +3536,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial4recall7 != 0 ]
 / ontrialend=[
-	values.trial4recall7=openended.trial4_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial4_recall_response7.firstcharlatency; 
+	values.trial4recall7=openended.trial4_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial4_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response7.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial4recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3564,14 +3564,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial4recall8 != 0 ]
 / ontrialend=[
-	values.trial4recall8=openended.trial4_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response8.firstcharlatency; 
+	values.trial4recall8=openended.trial4_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response8.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial4recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3593,14 +3593,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial4recall9 != 0 ]
 / ontrialend=[
-	values.trial4recall9=openended.trial4_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response9.firstcharlatency; 
+	values.trial4recall9=openended.trial4_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response9.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3617,19 +3617,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial4recall10 != 0 ]
 /ontrialend=[
-	values.trial4recall10=openended.trial4_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response10.firstcharlatency; 
+	values.trial4recall10=openended.trial4_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response10.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial4recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3652,14 +3652,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial4recall11 != 0 ]
 /ontrialend=[
-	values.trial4recall11=openended.trial4_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response11.firstcharlatency; 
+	values.trial4recall11=openended.trial4_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response11.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial4recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3680,14 +3680,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial4recall12 != 0 ]
 / ontrialend=[
-	values.trial4recall12=openended.trial4_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response12.firstcharlatency; 
+	values.trial4recall12=openended.trial4_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response12.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -3710,14 +3710,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial4recall13 != 0 ]
 / ontrialend=[
-	values.trial4recall13=openended.trial4_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response13.firstcharlatency; 
+	values.trial4recall13=openended.trial4_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response13.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial4recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3739,14 +3739,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial4recall14 != 0 ]
 / ontrialend=[
-	values.trial4recall14=openended.trial4_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response14.firstcharlatency; 
+	values.trial4recall14=openended.trial4_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response14.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3767,14 +3767,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, ]
 / beginresponsetime = 0
 / skip = [ values.trial4recall15 != 0 ]
 / ontrialend=[
-	values.trial4recall15=openended.trial4_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response15.firstcharlatency; 
+	values.trial4recall15=openended.trial4_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response15.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial4recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3796,14 +3796,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial4recall16 != 0 ]
 / ontrialend=[
-	values.trial4recall16=openended.trial4_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response16.firstcharlatency; 
+	values.trial4recall16=openended.trial4_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response16.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3825,14 +3825,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial4recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend=[
-	values.trial4recall17=openended.trial4_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response17.firstcharlatency; 
+	values.trial4recall17=openended.trial4_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response17.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3854,14 +3854,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial4recall18 != 0 ]
 / ontrialend=[
-	values.trial4recall18=openended.trial4_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response18.firstcharlatency; 
+	values.trial4recall18=openended.trial4_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response18.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -3884,14 +3884,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial4recall19 != 0 ]
 / ontrialend=[
-	values.trial4recall19=openended.trial4_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response19.firstcharlatency; 
+	values.trial4recall19=openended.trial4_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response19.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -3907,20 +3907,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes=[1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial4recall20 != 0 ]
 / ontrialend=[
-	values.trial4recall20=openended.trial4_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial4_recall_response20.firstcharlatency; 
+	values.trial4recall20=openended.trial4_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial4_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial4_recall_response20.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial4recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -4041,12 +4041,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial5recall1 != 0 ]
 / ontrialbegin=[
 	values.trial5recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.trial5recall1=openended.trial5_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial5_recall_response1.firstcharlatency; 
+	values.trial5recall1=openended.trial5_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial5_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -4069,9 +4069,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial5recall2 != 0 ]
 / ontrialend=[
-	values.trial5recall2=openended.trial5_recall_response2.response; 
+	values.trial5recall2=openended.trial5_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial5_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial5_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -4106,8 +4106,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.trial5recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4128,14 +4128,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial5recall4 != 0 ]
 / ontrialend=[
-	values.trial5recall4=openended.trial5_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial5_recall_response4.firstcharlatency; 
+	values.trial5recall4=openended.trial5_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial5_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4156,14 +4156,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial5recall5 != 0 ]
 / ontrialend=[
-	values.trial5recall5=openended.trial5_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial5_recall_response5.firstcharlatency; 
+	values.trial5recall5=openended.trial5_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial5_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -4185,14 +4185,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial5recall6 != 0 ]
 / ontrialend=[
-	values.trial5recall6=openended.trial5_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial5_recall_response6.firstcharlatency; 
+	values.trial5recall6=openended.trial5_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial5_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4215,14 +4215,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial5recall7 != 0 ]
 / ontrialend=[
-	values.trial5recall7=openended.trial5_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial5_recall_response7.firstcharlatency; 
+	values.trial5recall7=openended.trial5_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial5_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response7.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial5recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4243,14 +4243,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial5recall8 != 0 ]
 / ontrialend=[
-	values.trial5recall8=openended.trial5_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response8.firstcharlatency; 
+	values.trial5recall8=openended.trial5_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response8.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial5recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4272,14 +4272,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial5recall9 != 0 ]
 / ontrialend=[
-	values.trial5recall9=openended.trial5_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response9.firstcharlatency; 
+	values.trial5recall9=openended.trial5_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response9.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4297,19 +4297,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial5recall10 != 0 ]
 /ontrialend=[
-	values.trial5recall10=openended.trial5_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response10.firstcharlatency; 
+	values.trial5recall10=openended.trial5_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response10.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial5recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4333,14 +4333,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial5recall11 != 0 ]
 /ontrialend=[
-	values.trial5recall11=openended.trial5_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response11.firstcharlatency; 
+	values.trial5recall11=openended.trial5_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response11.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial5recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4361,14 +4361,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial5recall12 != 0 ]
 / ontrialend=[
-	values.trial5recall12=openended.trial5_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response12.firstcharlatency; 
+	values.trial5recall12=openended.trial5_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response12.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -4391,14 +4391,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial5recall13 != 0 ]
 / ontrialend=[
-	values.trial5recall13=openended.trial5_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response13.firstcharlatency; 
+	values.trial5recall13=openended.trial5_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response13.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial5recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4420,14 +4420,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial5recall14 != 0 ]
 / ontrialend=[
-	values.trial5recall14=openended.trial5_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response14.firstcharlatency; 
+	values.trial5recall14=openended.trial5_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response14.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4447,14 +4447,14 @@ shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, ]
 / skip = [ values.trial5recall15 != 0 ]
 / ontrialend=[
-	values.trial5recall15=openended.trial5_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response15.firstcharlatency; 
+	values.trial5recall15=openended.trial5_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response15.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.trial5recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4476,14 +4476,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial5recall16 != 0 ]
 / ontrialend=[
-	values.trial5recall16=openended.trial5_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response16.firstcharlatency; 
+	values.trial5recall16=openended.trial5_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response16.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4505,14 +4505,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial5recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend=[
-	values.trial5recall17=openended.trial5_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response17.firstcharlatency; 
+	values.trial5recall17=openended.trial5_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response17.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4534,14 +4534,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial5recall18 != 0 ]
 / ontrialend=[
-	values.trial5recall18=openended.trial5_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response18.firstcharlatency; 
+	values.trial5recall18=openended.trial5_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response18.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -4564,14 +4564,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial5recall19 != 0 ]
 / ontrialend=[
-	values.trial5recall19=openended.trial5_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response19.firstcharlatency; 
+	values.trial5recall19=openended.trial5_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response19.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4587,20 +4587,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes=[1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial5recall20 != 0 ]
 / ontrialend=[
-	values.trial5recall20=openended.trial5_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial5_recall_response20.firstcharlatency; 
+	values.trial5recall20=openended.trial5_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial5_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial5_recall_response20.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial5recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -4707,12 +4707,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.listbrecall1 != 0 ]
 / ontrialbegin=[
 	values.listbrecall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.listbrecall1=openended.listb_recall_response1.response; 
-	values.recall_firstcharlatency=openended.listb_recall_response1.firstcharlatency; 
+	values.listbrecall1=openended.listb_recall_response1.response;
+	values.recall_firstcharlatency=openended.listb_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -4735,9 +4735,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.listbrecall2 != 0 ]
 / ontrialend=[
-	values.listbrecall2=openended.listb_recall_response2.response; 
+	values.listbrecall2=openended.listb_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.listb_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.listb_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -4772,8 +4772,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.listbrecall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4794,14 +4794,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.listbrecall4 != 0 ]
 / ontrialend=[
-	values.listbrecall4=openended.listb_recall_response4.response; 
-	values.recall_firstcharlatency=openended.listb_recall_response4.firstcharlatency; 
+	values.listbrecall4=openended.listb_recall_response4.response;
+	values.recall_firstcharlatency=openended.listb_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4822,14 +4822,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.listbrecall5 != 0 ]
 / ontrialend=[
-	values.listbrecall5=openended.listb_recall_response5.response; 
-	values.recall_firstcharlatency=openended.listb_recall_response5.firstcharlatency; 
+	values.listbrecall5=openended.listb_recall_response5.response;
+	values.recall_firstcharlatency=openended.listb_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -4851,14 +4851,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.listbrecall6 != 0 ]
 / ontrialend=[
-	values.listbrecall6=openended.listb_recall_response6.response; 
-	values.recall_firstcharlatency=openended.listb_recall_response6.firstcharlatency; 
+	values.listbrecall6=openended.listb_recall_response6.response;
+	values.recall_firstcharlatency=openended.listb_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4881,14 +4881,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.listbrecall7 != 0 ]
 / ontrialend=[
-	values.listbrecall7=openended.listb_recall_response7.response; 
-	values.recall_firstcharlatency=openended.listb_recall_response7.firstcharlatency; 
+	values.listbrecall7=openended.listb_recall_response7.response;
+	values.recall_firstcharlatency=openended.listb_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response7.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.listbrecall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4909,14 +4909,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.listbrecall8 != 0 ]
 / ontrialend=[
-	values.listbrecall8=openended.listb_recall_response8.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response8.firstcharlatency; 
+	values.listbrecall8=openended.listb_recall_response8.response;
+	values.recall_lastcharlatency=openended.listb_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response8.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.listbrecall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4938,14 +4938,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.listbrecall9 != 0 ]
 / ontrialend=[
-	values.listbrecall9=openended.listb_recall_response9.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response9.firstcharlatency; 
+	values.listbrecall9=openended.listb_recall_response9.response;
+	values.recall_lastcharlatency=openended.listb_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response9.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4963,19 +4963,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.listbrecall10 != 0 ]
 /ontrialend=[
-	values.listbrecall10=openended.listb_recall_response10.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response10.firstcharlatency; 
+	values.listbrecall10=openended.listb_recall_response10.response;
+	values.recall_lastcharlatency=openended.listb_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response10.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.listbrecall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -4999,14 +4999,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.listbrecall11 != 0 ]
 /ontrialend=[
-	values.listbrecall11=openended.listb_recall_response11.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response11.firstcharlatency; 
+	values.listbrecall11=openended.listb_recall_response11.response;
+	values.recall_lastcharlatency=openended.listb_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response11.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.listbrecall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5027,14 +5027,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.listbrecall12 != 0 ]
 / ontrialend=[
-	values.listbrecall12=openended.listb_recall_response12.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response12.firstcharlatency; 
+	values.listbrecall12=openended.listb_recall_response12.response;
+	values.recall_lastcharlatency=openended.listb_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response12.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -5057,14 +5057,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.listbrecall13 != 0 ]
 / ontrialend=[
-	values.listbrecall13=openended.listb_recall_response13.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response13.firstcharlatency; 
+	values.listbrecall13=openended.listb_recall_response13.response;
+	values.recall_lastcharlatency=openended.listb_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response13.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.listbrecall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5086,14 +5086,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.listbrecall14 != 0 ]
 / ontrialend=[
-	values.listbrecall14=openended.listb_recall_response14.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response14.firstcharlatency; 
+	values.listbrecall14=openended.listb_recall_response14.response;
+	values.recall_lastcharlatency=openended.listb_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response14.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5114,14 +5114,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, ]
 / beginresponsetime = 0
 / skip = [ values.listbrecall15 != 0 ]
 / ontrialend=[
-	values.listbrecall15=openended.listb_recall_response15.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response15.firstcharlatency; 
+	values.listbrecall15=openended.listb_recall_response15.response;
+	values.recall_lastcharlatency=openended.listb_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response15.lastcharlatency;
 ]
 /ontrialbegin=[
 	values.listbrecall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5143,14 +5143,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.listbrecall16 != 0 ]
 / ontrialend=[
-	values.listbrecall16=openended.listb_recall_response16.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response16.firstcharlatency; 
+	values.listbrecall16=openended.listb_recall_response16.response;
+	values.recall_lastcharlatency=openended.listb_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response16.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5172,14 +5172,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.listbrecall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend=[
-	values.listbrecall17=openended.listb_recall_response17.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response17.firstcharlatency; 
+	values.listbrecall17=openended.listb_recall_response17.response;
+	values.recall_lastcharlatency=openended.listb_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response17.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5201,14 +5201,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.listbrecall18 != 0 ]
 / ontrialend=[
-	values.listbrecall18=openended.listb_recall_response18.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response18.firstcharlatency; 
+	values.listbrecall18=openended.listb_recall_response18.response;
+	values.recall_lastcharlatency=openended.listb_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response18.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -5231,14 +5231,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.listbrecall19 != 0 ]
 / ontrialend=[
-	values.listbrecall19=openended.listb_recall_response19.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response19.firstcharlatency; 
+	values.listbrecall19=openended.listb_recall_response19.response;
+	values.recall_lastcharlatency=openended.listb_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response19.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5254,20 +5254,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes=[1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.listbrecall20 != 0 ]
 / ontrialend=[
-	values.listbrecall20=openended.listb_recall_response20.response; 
-	values.recall_lastcharlatency=openended.listb_recall_response20.firstcharlatency; 
+	values.listbrecall20=openended.listb_recall_response20.response;
+	values.recall_lastcharlatency=openended.listb_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.listb_recall_response20.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.listbrecall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -5318,17 +5318,17 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 
 *******************************************************************************************************************
 *******************************************************************************************************************
-	TRIAL 6 
+	TRIAL 6
 *******************************************************************************************************************
 *******************************************************************************************************************
 
 
 <page DelayedRecallInstructions>
-^Remember that list you practiced learning at the beginning multiple times? 
+^Remember that list you practiced learning at the beginning multiple times?
 ^^
 ^^^
 ^^^^Please list as many of those words as you can remember in any order that comes to mind.
-</page> 
+</page>
 
 <text trial6_pres_instruct1>
 /items  = ("Good, that was a good beginning.")
@@ -5395,12 +5395,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial6recall1 != 0 ]
 / ontrialbegin=[
 	values.trial6recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend=[
-	values.trial6recall1=openended.trial6_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial6_recall_response1.firstcharlatency; 
+	values.trial6recall1=openended.trial6_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial6_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -5423,9 +5423,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall2 != 0 ]
 / ontrialend=[
-	values.trial6recall2=openended.trial6_recall_response2.response; 
+	values.trial6recall2=openended.trial6_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial6_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial6_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response2.lastcharlatency;
 ]
 / ontrialbegin=[
@@ -5460,8 +5460,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin=[
 	values.trial6recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5482,14 +5482,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall4 != 0 ]
 / ontrialend=[
-	values.trial6recall4=openended.trial6_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial6_recall_response4.firstcharlatency; 
+	values.trial6recall4=openended.trial6_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial6_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response4.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial6recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5510,14 +5510,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall5 != 0 ]
 / ontrialend=[
-	values.trial6recall5=openended.trial6_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial6_recall_response5.firstcharlatency; 
+	values.trial6recall5=openended.trial6_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial6_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response5.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial6recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -5539,14 +5539,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall6 != 0 ]
 / ontrialend=[
-	values.trial6recall6=openended.trial6_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial6_recall_response6.firstcharlatency; 
+	values.trial6recall6=openended.trial6_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial6_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response6.lastcharlatency;
 ]
 / ontrialbegin=[
 	values.trial6recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5569,14 +5569,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial6recall7 != 0 ]
 / ontrialend=[
-	values.trial6recall7=openended.trial6_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial6_recall_response7.firstcharlatency; 
+	values.trial6recall7=openended.trial6_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial6_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response7.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial6recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5597,14 +5597,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall8 != 0 ]
 / ontrialend = [
-	values.trial6recall8=openended.trial6_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response8.firstcharlatency; 
+	values.trial6recall8=openended.trial6_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response8.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial6recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5626,14 +5626,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial6recall9 != 0 ]
 / ontrialend = [
-	values.trial6recall9=openended.trial6_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response9.firstcharlatency; 
+	values.trial6recall9=openended.trial6_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response9.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5651,19 +5651,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial6recall10 != 0 ]
 /ontrialend = [
-	values.trial6recall10=openended.trial6_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response10.firstcharlatency; 
+	values.trial6recall10=openended.trial6_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response10.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial6recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5687,14 +5687,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial6recall11 != 0 ]
 /ontrialend = [
-	values.trial6recall11=openended.trial6_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response11.firstcharlatency; 
+	values.trial6recall11=openended.trial6_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response11.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial6recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5715,14 +5715,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall12 != 0 ]
 / ontrialend = [
-	values.trial6recall12=openended.trial6_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response12.firstcharlatency; 
+	values.trial6recall12=openended.trial6_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response12.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -5745,14 +5745,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial6recall13 != 0 ]
 / ontrialend = [
-	values.trial6recall13=openended.trial6_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response13.firstcharlatency; 
+	values.trial6recall13=openended.trial6_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response13.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial6recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5774,14 +5774,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial6recall14 != 0 ]
 / ontrialend = [
-	values.trial6recall14=openended.trial6_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response14.firstcharlatency; 
+	values.trial6recall14=openended.trial6_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response14.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5802,14 +5802,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial6recall15 != 0 ]
 / ontrialend = [
-	values.trial6recall15=openended.trial6_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response15.firstcharlatency; 
+	values.trial6recall15=openended.trial6_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response15.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial6recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5831,14 +5831,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial6recall16 != 0 ]
 / ontrialend = [
-	values.trial6recall16=openended.trial6_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response16.firstcharlatency; 
+	values.trial6recall16=openended.trial6_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response16.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5860,14 +5860,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial6recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend = [
-	values.trial6recall17=openended.trial6_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response17.firstcharlatency; 
+	values.trial6recall17=openended.trial6_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response17.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5889,14 +5889,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial6recall18 != 0 ]
 / ontrialend = [
-	values.trial6recall18=openended.trial6_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response18.firstcharlatency; 
+	values.trial6recall18=openended.trial6_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response18.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -5919,14 +5919,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial6recall19 != 0 ]
 / ontrialend = [
-	values.trial6recall19=openended.trial6_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response19.firstcharlatency; 
+	values.trial6recall19=openended.trial6_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response19.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -5942,20 +5942,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes = [1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial6recall20 != 0 ]
 / ontrialend = [
-	values.trial6recall20=openended.trial6_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial6_recall_response20.firstcharlatency; 
+	values.trial6recall20=openended.trial6_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial6_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial6_recall_response20.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial6recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -6157,7 +6157,7 @@ Conditions:
 								(1 = right of fixation; 2 = left of fixation)
 /targetdirection:				sets the direction of the target
 								(1 = right; 2 = left)
-/locationcongruence:			1 = target direction and target position are congruent; 2 = otherwise 
+/locationcongruence:			1 = target direction and target position are congruent; 2 = otherwise
 
 
 Helper variables to select appropriate targets/flanker/feedback
@@ -6510,65 +6510,65 @@ Note: all lists contain their elements in sequential order. Each list resets aft
 This list contains the predetermined trialsequence of cue conditions for 2x72=144 trials
 <list trialsequence>
 / items = (
-trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue3, trial.doublecue, 
-trial.validspatialcue2, trial.doublecue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue2, 
-trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue1, trial.validspatialcue2, 
-trial.validspatialcue2, trial.nocue, trial.validspatialcue1, trial.nocue, trial.validspatialcue3, 
-trial.invalidspatialcue, trial.nocue, trial.invalidspatialcue, trial.doublecue, trial.nocue, 
-trial.validspatialcue2, trial.validspatialcue3, trial.nocue, trial.doublecue, trial.doublecue, 
-trial.invalidspatialcue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue1, trial.doublecue, 
-trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue1, trial.validspatialcue2, trial.invalidspatialcue, 
-trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue1, trial.nocue, trial.nocue, 
-trial.nocue, trial.validspatialcue2, trial.nocue, trial.doublecue, trial.nocue, 
-trial.validspatialcue1, trial.doublecue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue3, 
-trial.validspatialcue2, trial.doublecue, trial.validspatialcue2, trial.validspatialcue3, trial.doublecue, 
-trial.validspatialcue1, trial.invalidspatialcue, trial.doublecue, trial.doublecue, trial.validspatialcue3, 
-trial.nocue, trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue2, trial.validspatialcue1, 
+trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue3, trial.doublecue,
+trial.validspatialcue2, trial.doublecue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue2,
+trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue1, trial.validspatialcue2,
+trial.validspatialcue2, trial.nocue, trial.validspatialcue1, trial.nocue, trial.validspatialcue3,
+trial.invalidspatialcue, trial.nocue, trial.invalidspatialcue, trial.doublecue, trial.nocue,
+trial.validspatialcue2, trial.validspatialcue3, trial.nocue, trial.doublecue, trial.doublecue,
+trial.invalidspatialcue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue1, trial.doublecue,
+trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue1, trial.validspatialcue2, trial.invalidspatialcue,
+trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue1, trial.nocue, trial.nocue,
+trial.nocue, trial.validspatialcue2, trial.nocue, trial.doublecue, trial.nocue,
+trial.validspatialcue1, trial.doublecue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue3,
+trial.validspatialcue2, trial.doublecue, trial.validspatialcue2, trial.validspatialcue3, trial.doublecue,
+trial.validspatialcue1, trial.invalidspatialcue, trial.doublecue, trial.doublecue, trial.validspatialcue3,
+trial.nocue, trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue2, trial.validspatialcue1,
 trial.nocue, trial.validspatialcue1,
-trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue3, 
-trial.nocue, trial.nocue, trial.validspatialcue3, trial.validspatialcue1, trial.invalidspatialcue, 
-trial.nocue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue2, trial.doublecue, 
-trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue1, 
-trial.doublecue, trial.validspatialcue2, trial.nocue, trial.invalidspatialcue, trial.invalidspatialcue, 
-trial.doublecue, trial.validspatialcue1, trial.validspatialcue1, trial.doublecue, trial.doublecue, 
-trial.nocue, trial.doublecue, trial.validspatialcue3, trial.doublecue, trial.nocue, 
-trial.nocue, trial.doublecue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue2, 
-trial.validspatialcue2, trial.invalidspatialcue, trial.doublecue, trial.validspatialcue2, trial.invalidspatialcue, 
-trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue2, trial.doublecue, trial.doublecue, 
-trial.validspatialcue1, trial.nocue, trial.invalidspatialcue, trial.validspatialcue3, trial.doublecue, 
-trial.validspatialcue3, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue3, 
-trial.invalidspatialcue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue1, trial.validspatialcue2, 
-trial.nocue, trial.validspatialcue3, trial.nocue, trial.validspatialcue2, trial.validspatialcue2, 
+trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue3,
+trial.nocue, trial.nocue, trial.validspatialcue3, trial.validspatialcue1, trial.invalidspatialcue,
+trial.nocue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue2, trial.doublecue,
+trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue1,
+trial.doublecue, trial.validspatialcue2, trial.nocue, trial.invalidspatialcue, trial.invalidspatialcue,
+trial.doublecue, trial.validspatialcue1, trial.validspatialcue1, trial.doublecue, trial.doublecue,
+trial.nocue, trial.doublecue, trial.validspatialcue3, trial.doublecue, trial.nocue,
+trial.nocue, trial.doublecue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue2,
+trial.validspatialcue2, trial.invalidspatialcue, trial.doublecue, trial.validspatialcue2, trial.invalidspatialcue,
+trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue2, trial.doublecue, trial.doublecue,
+trial.validspatialcue1, trial.nocue, trial.invalidspatialcue, trial.validspatialcue3, trial.doublecue,
+trial.validspatialcue3, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue3,
+trial.invalidspatialcue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue1, trial.validspatialcue2,
+trial.nocue, trial.validspatialcue3, trial.nocue, trial.validspatialcue2, trial.validspatialcue2,
 trial.validspatialcue3, trial.validspatialcue1,
-trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue3, trial.doublecue, 
-trial.validspatialcue2, trial.doublecue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue2, 
-trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue1, trial.validspatialcue2, 
-trial.validspatialcue2, trial.nocue, trial.validspatialcue1, trial.nocue, trial.validspatialcue3, 
-trial.invalidspatialcue, trial.nocue, trial.invalidspatialcue, trial.doublecue, trial.nocue, 
-trial.validspatialcue2, trial.validspatialcue3, trial.nocue, trial.doublecue, trial.doublecue, 
-trial.invalidspatialcue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue1, trial.doublecue, 
-trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue1, trial.validspatialcue2, trial.invalidspatialcue, 
-trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue1, trial.nocue, trial.nocue, 
-trial.nocue, trial.validspatialcue2, trial.nocue, trial.doublecue, trial.nocue, 
-trial.validspatialcue1, trial.doublecue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue3, 
-trial.validspatialcue2, trial.doublecue, trial.validspatialcue2, trial.validspatialcue3, trial.doublecue, 
-trial.validspatialcue1, trial.invalidspatialcue, trial.doublecue, trial.doublecue, trial.validspatialcue3, 
-trial.nocue, trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue2, trial.validspatialcue1, 
+trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue3, trial.doublecue,
+trial.validspatialcue2, trial.doublecue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue2,
+trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue1, trial.validspatialcue2,
+trial.validspatialcue2, trial.nocue, trial.validspatialcue1, trial.nocue, trial.validspatialcue3,
+trial.invalidspatialcue, trial.nocue, trial.invalidspatialcue, trial.doublecue, trial.nocue,
+trial.validspatialcue2, trial.validspatialcue3, trial.nocue, trial.doublecue, trial.doublecue,
+trial.invalidspatialcue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue1, trial.doublecue,
+trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue1, trial.validspatialcue2, trial.invalidspatialcue,
+trial.invalidspatialcue, trial.validspatialcue1, trial.validspatialcue1, trial.nocue, trial.nocue,
+trial.nocue, trial.validspatialcue2, trial.nocue, trial.doublecue, trial.nocue,
+trial.validspatialcue1, trial.doublecue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue3,
+trial.validspatialcue2, trial.doublecue, trial.validspatialcue2, trial.validspatialcue3, trial.doublecue,
+trial.validspatialcue1, trial.invalidspatialcue, trial.doublecue, trial.doublecue, trial.validspatialcue3,
+trial.nocue, trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue2, trial.validspatialcue1,
 trial.nocue, trial.validspatialcue1,
-trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue3, 
-trial.nocue, trial.nocue, trial.validspatialcue3, trial.validspatialcue1, trial.invalidspatialcue, 
-trial.nocue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue2, trial.doublecue, 
-trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue1, 
-trial.doublecue, trial.validspatialcue2, trial.nocue, trial.invalidspatialcue, trial.invalidspatialcue, 
-trial.doublecue, trial.validspatialcue1, trial.validspatialcue1, trial.doublecue, trial.doublecue, 
-trial.nocue, trial.doublecue, trial.validspatialcue3, trial.doublecue, trial.nocue, 
-trial.nocue, trial.doublecue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue2, 
-trial.validspatialcue2, trial.invalidspatialcue, trial.doublecue, trial.validspatialcue2, trial.invalidspatialcue, 
-trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue2, trial.doublecue, trial.doublecue, 
-trial.validspatialcue1, trial.nocue, trial.invalidspatialcue, trial.validspatialcue3, trial.doublecue, 
-trial.validspatialcue3, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue3, 
-trial.invalidspatialcue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue1, trial.validspatialcue2, 
-trial.nocue, trial.validspatialcue3, trial.nocue, trial.validspatialcue2, trial.validspatialcue2, 
+trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue3, trial.validspatialcue3,
+trial.nocue, trial.nocue, trial.validspatialcue3, trial.validspatialcue1, trial.invalidspatialcue,
+trial.nocue, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue2, trial.doublecue,
+trial.invalidspatialcue, trial.validspatialcue2, trial.validspatialcue3, trial.invalidspatialcue, trial.validspatialcue1,
+trial.doublecue, trial.validspatialcue2, trial.nocue, trial.invalidspatialcue, trial.invalidspatialcue,
+trial.doublecue, trial.validspatialcue1, trial.validspatialcue1, trial.doublecue, trial.doublecue,
+trial.nocue, trial.doublecue, trial.validspatialcue3, trial.doublecue, trial.nocue,
+trial.nocue, trial.doublecue, trial.invalidspatialcue, trial.validspatialcue3, trial.validspatialcue2,
+trial.validspatialcue2, trial.invalidspatialcue, trial.doublecue, trial.validspatialcue2, trial.invalidspatialcue,
+trial.validspatialcue1, trial.invalidspatialcue, trial.validspatialcue2, trial.doublecue, trial.doublecue,
+trial.validspatialcue1, trial.nocue, trial.invalidspatialcue, trial.validspatialcue3, trial.doublecue,
+trial.validspatialcue3, trial.validspatialcue2, trial.validspatialcue1, trial.validspatialcue3, trial.validspatialcue3,
+trial.invalidspatialcue, trial.invalidspatialcue, trial.nocue, trial.validspatialcue1, trial.validspatialcue2,
+trial.nocue, trial.validspatialcue3, trial.nocue, trial.validspatialcue2, trial.validspatialcue2,
 trial.validspatialcue3, trial.validspatialcue1)
 / selectionmode = sequence
 / resetinterval = 5
@@ -6577,37 +6577,37 @@ trial.validspatialcue3, trial.validspatialcue1)
 This list contains the predetermined cue-target isis
 <list CueTargetISI>
 / items = (
-0, 0, 800, 400, 400, 400, 400, 0, 400, 800, 
-800, 400, 800, 0, 0, 400, 400, 0, 0, 0, 
-800, 0, 400, 0, 800, 400, 800, 800, 800, 0, 
-0, 0, 0, 0, 400, 800, 800, 0, 400, 800, 
-0, 400, 400, 0, 400, 0, 800, 800, 800, 800, 
-400, 400, 400, 800, 800, 0, 800, 400, 400, 0, 
-400, 400, 800, 400, 0, 0, 800, 800, 800, 0, 
+0, 0, 800, 400, 400, 400, 400, 0, 400, 800,
+800, 400, 800, 0, 0, 400, 400, 0, 0, 0,
+800, 0, 400, 0, 800, 400, 800, 800, 800, 0,
+0, 0, 0, 0, 400, 800, 800, 0, 400, 800,
+0, 400, 400, 0, 400, 0, 800, 800, 800, 800,
+400, 400, 400, 800, 800, 0, 800, 400, 400, 0,
+400, 400, 800, 400, 0, 0, 800, 800, 800, 0,
 400, 800,
-400, 800, 0, 800, 800, 400, 400, 800, 0, 0, 
-0, 800, 800, 0, 800, 800, 400, 800, 400, 800, 
-400, 0, 800, 400, 800, 0, 400, 400, 0, 0, 
-0, 400, 400, 800, 800, 400, 0, 800, 0, 0, 
-0, 400, 800, 0, 0, 0, 400, 800, 400, 0, 
-400, 400, 0, 800, 800, 400, 800, 800, 0, 400, 
-400, 0, 0, 800, 400, 400, 400, 800, 0, 800, 
+400, 800, 0, 800, 800, 400, 400, 800, 0, 0,
+0, 800, 800, 0, 800, 800, 400, 800, 400, 800,
+400, 0, 800, 400, 800, 0, 400, 400, 0, 0,
+0, 400, 400, 800, 800, 400, 0, 800, 0, 0,
+0, 400, 800, 0, 0, 0, 400, 800, 400, 0,
+400, 400, 0, 800, 800, 400, 800, 800, 0, 400,
+400, 0, 0, 800, 400, 400, 400, 800, 0, 800,
 0, 400,
-0, 0, 800, 400, 400, 400, 400, 0, 400, 800, 
-800, 400, 800, 0, 0, 400, 400, 0, 0, 0, 
-800, 0, 400, 0, 800, 400, 800, 800, 800, 0, 
-0, 0, 0, 0, 400, 800, 800, 0, 400, 800, 
-0, 400, 400, 0, 400, 0, 800, 800, 800, 800, 
-400, 400, 400, 800, 800, 0, 800, 400, 400, 0, 
-400, 400, 800, 400, 0, 0, 800, 800, 800, 0, 
+0, 0, 800, 400, 400, 400, 400, 0, 400, 800,
+800, 400, 800, 0, 0, 400, 400, 0, 0, 0,
+800, 0, 400, 0, 800, 400, 800, 800, 800, 0,
+0, 0, 0, 0, 400, 800, 800, 0, 400, 800,
+0, 400, 400, 0, 400, 0, 800, 800, 800, 800,
+400, 400, 400, 800, 800, 0, 800, 400, 400, 0,
+400, 400, 800, 400, 0, 0, 800, 800, 800, 0,
 400, 800,
-400, 800, 0, 800, 800, 400, 400, 800, 0, 0, 
-0, 800, 800, 0, 800, 800, 400, 800, 400, 800, 
-400, 0, 800, 400, 800, 0, 400, 400, 0, 0, 
-0, 400, 400, 800, 800, 400, 0, 800, 0, 0, 
-0, 400, 800, 0, 0, 0, 400, 800, 400, 0, 
-400, 400, 0, 800, 800, 400, 800, 800, 0, 400, 
-400, 0, 0, 800, 400, 400, 400, 800, 0, 800, 
+400, 800, 0, 800, 800, 400, 400, 800, 0, 0,
+0, 800, 800, 0, 800, 800, 400, 800, 400, 800,
+400, 0, 800, 400, 800, 0, 400, 400, 0, 0,
+0, 400, 400, 800, 800, 400, 0, 800, 0, 0,
+0, 400, 800, 0, 0, 0, 400, 800, 400, 0,
+400, 400, 0, 800, 800, 400, 800, 800, 0, 400,
+400, 0, 0, 800, 400, 400, 400, 800, 0, 800,
 0, 400)
 / selectionmode = list.trialsequence.currentindex
 </list>
@@ -6617,37 +6617,37 @@ This list contains the FlankerCongruence
 2 = incongruent
 <list FlankerCongruence>
 / items = (
-1, 2, 2, 2, 2, 2, 1, 1, 1, 2, 
-1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 
-1, 2, 2, 2, 2, 1, 1, 1, 1, 2, 
-1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 
-2, 1, 1, 1, 2, 1, 1, 1, 1, 2, 
-2, 1, 2, 1, 1, 2, 1, 1, 2, 1, 
-2, 2, 2, 2, 2, 2, 1, 2, 1, 1, 
+1, 2, 2, 2, 2, 2, 1, 1, 1, 2,
+1, 1, 1, 2, 2, 1, 1, 2, 1, 2,
+1, 2, 2, 2, 2, 1, 1, 1, 1, 2,
+1, 1, 1, 1, 1, 2, 2, 2, 2, 2,
+2, 1, 1, 1, 2, 1, 1, 1, 1, 2,
+2, 1, 2, 1, 1, 2, 1, 1, 2, 1,
+2, 2, 2, 2, 2, 2, 1, 2, 1, 1,
 2, 2,
-1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 
-1, 2, 1, 1, 1, 2, 2, 1, 2, 1, 
-2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 
-2, 1, 2, 2, 2, 2, 2, 1, 2, 1, 
-1, 1, 2, 2, 2, 1, 1, 1, 2, 1, 
-2, 1, 1, 2, 2, 1, 1, 2, 1, 2, 
-1, 1, 2, 1, 2, 1, 1, 2, 2, 2, 
+1, 2, 2, 2, 1, 1, 2, 2, 2, 2,
+1, 2, 1, 1, 1, 2, 2, 1, 2, 1,
+2, 1, 1, 1, 2, 2, 1, 2, 1, 1,
+2, 1, 2, 2, 2, 2, 2, 1, 2, 1,
+1, 1, 2, 2, 2, 1, 1, 1, 2, 1,
+2, 1, 1, 2, 2, 1, 1, 2, 1, 2,
+1, 1, 2, 1, 2, 1, 1, 2, 2, 2,
 1, 1,
-1, 2, 2, 2, 2, 2, 1, 1, 1, 2, 
-1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 
-1, 2, 2, 2, 2, 1, 1, 1, 1, 2, 
-1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 
-2, 1, 1, 1, 2, 1, 1, 1, 1, 2, 
-2, 1, 2, 1, 1, 2, 1, 1, 2, 1, 
-2, 2, 2, 2, 2, 2, 1, 2, 1, 1, 
+1, 2, 2, 2, 2, 2, 1, 1, 1, 2,
+1, 1, 1, 2, 2, 1, 1, 2, 1, 2,
+1, 2, 2, 2, 2, 1, 1, 1, 1, 2,
+1, 1, 1, 1, 1, 2, 2, 2, 2, 2,
+2, 1, 1, 1, 2, 1, 1, 1, 1, 2,
+2, 1, 2, 1, 1, 2, 1, 1, 2, 1,
+2, 2, 2, 2, 2, 2, 1, 2, 1, 1,
 2, 2,
-1, 2, 2, 2, 1, 1, 2, 2, 2, 2, 
-1, 2, 1, 1, 1, 2, 2, 1, 2, 1, 
-2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 
-2, 1, 2, 2, 2, 2, 2, 1, 2, 1, 
-1, 1, 2, 2, 2, 1, 1, 1, 2, 1, 
-2, 1, 1, 2, 2, 1, 1, 2, 1, 2, 
-1, 1, 2, 1, 2, 1, 1, 2, 2, 2, 
+1, 2, 2, 2, 1, 1, 2, 2, 2, 2,
+1, 2, 1, 1, 1, 2, 2, 1, 2, 1,
+2, 1, 1, 1, 2, 2, 1, 2, 1, 1,
+2, 1, 2, 2, 2, 2, 2, 1, 2, 1,
+1, 1, 2, 2, 2, 1, 1, 1, 2, 1,
+2, 1, 1, 2, 2, 1, 1, 2, 1, 2,
+1, 1, 2, 1, 2, 1, 1, 2, 2, 2,
 1, 1)
 / selectionmode = list.trialsequence.currentindex
 </list>
@@ -6658,37 +6658,37 @@ This list contains the targetlocation
 2 = left of fixation
 <list Targetlocation>
 / items = (
-2, 2, 2, 1, 1, 1, 2, 2, 1, 2, 
-2, 1, 1, 2, 2, 2, 2, 2, 1, 2, 
-2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 
-2, 1, 1, 2, 1, 1, 1, 1, 2, 1, 
-1, 2, 1, 2, 2, 1, 1, 1, 1, 1, 
-1, 2, 1, 2, 1, 2, 2, 2, 1, 2, 
-2, 2, 2, 2, 1, 1, 1, 2, 2, 1, 
-1, 2, 
-1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 
-2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 
-2, 1, 2, 1, 2, 1, 2, 2, 1, 2, 
-2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 
-2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 
-1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 
-2, 2, 2, 1, 2, 1, 2, 1, 1, 1, 
+2, 2, 2, 1, 1, 1, 2, 2, 1, 2,
+2, 1, 1, 2, 2, 2, 2, 2, 1, 2,
+2, 1, 1, 2, 2, 1, 1, 1, 2, 1,
+2, 1, 1, 2, 1, 1, 1, 1, 2, 1,
+1, 2, 1, 2, 2, 1, 1, 1, 1, 1,
+1, 2, 1, 2, 1, 2, 2, 2, 1, 2,
+2, 2, 2, 2, 1, 1, 1, 2, 2, 1,
+1, 2,
+1, 1, 1, 2, 2, 2, 2, 2, 1, 1,
+2, 1, 2, 1, 1, 2, 1, 2, 2, 2,
+2, 1, 2, 1, 2, 1, 2, 2, 1, 2,
+2, 1, 2, 1, 2, 1, 2, 1, 2, 2,
+2, 2, 2, 1, 2, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 2, 2, 1, 1, 2,
+2, 2, 2, 1, 2, 1, 2, 1, 1, 1,
 2, 1,
-2, 2, 2, 1, 1, 1, 2, 2, 1, 2, 
-2, 1, 1, 2, 2, 2, 2, 2, 1, 2, 
-2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 
-2, 1, 1, 2, 1, 1, 1, 1, 2, 1, 
-1, 2, 1, 2, 2, 1, 1, 1, 1, 1, 
-1, 2, 1, 2, 1, 2, 2, 2, 1, 2, 
-2, 2, 2, 2, 1, 1, 1, 2, 2, 1, 
-1, 2, 
-1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 
-2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 
-2, 1, 2, 1, 2, 1, 2, 2, 1, 2, 
-2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 
-2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 
-1, 1, 1, 1, 1, 2, 2, 1, 1, 2, 
-2, 2, 2, 1, 2, 1, 2, 1, 1, 1, 
+2, 2, 2, 1, 1, 1, 2, 2, 1, 2,
+2, 1, 1, 2, 2, 2, 2, 2, 1, 2,
+2, 1, 1, 2, 2, 1, 1, 1, 2, 1,
+2, 1, 1, 2, 1, 1, 1, 1, 2, 1,
+1, 2, 1, 2, 2, 1, 1, 1, 1, 1,
+1, 2, 1, 2, 1, 2, 2, 2, 1, 2,
+2, 2, 2, 2, 1, 1, 1, 2, 2, 1,
+1, 2,
+1, 1, 1, 2, 2, 2, 2, 2, 1, 1,
+2, 1, 2, 1, 1, 2, 1, 2, 2, 2,
+2, 1, 2, 1, 2, 1, 2, 2, 1, 2,
+2, 1, 2, 1, 2, 1, 2, 1, 2, 2,
+2, 2, 2, 1, 2, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 2, 2, 1, 1, 2,
+2, 2, 2, 1, 2, 1, 2, 1, 1, 1,
 2, 1)
 / selectionmode = list.trialsequence.currentindex
 </list>
@@ -6698,37 +6698,37 @@ This list contains the targetdirection
 2 = points to the left
 <list Targetdirection>
 / items = (
-2, 2, 2, 1, 1, 2, 1, 1, 2, 2, 
-2, 2, 2, 1, 2, 2, 2, 2, 1, 1, 
-1, 2, 1, 1, 2, 1, 1, 2, 2, 2, 
-2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 
-1, 1, 2, 1, 1, 2, 1, 1, 2, 2, 
-1, 2, 2, 2, 2, 1, 1, 1, 2, 1, 
-1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 
+2, 2, 2, 1, 1, 2, 1, 1, 2, 2,
+2, 2, 2, 1, 2, 2, 2, 2, 1, 1,
+1, 2, 1, 1, 2, 1, 1, 2, 2, 2,
+2, 1, 2, 1, 1, 2, 2, 2, 2, 2,
+1, 1, 2, 1, 1, 2, 1, 1, 2, 2,
+1, 2, 2, 2, 2, 1, 1, 1, 2, 1,
+1, 1, 1, 2, 1, 1, 1, 1, 1, 2,
 2, 1,
-1, 1, 2, 1, 2, 1, 2, 2, 1, 2, 
-2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 
-1, 1, 1, 2, 2, 1, 2, 2, 1, 2, 
-2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 
-1, 2, 2, 2, 1, 1, 1, 2, 2, 2, 
-2, 1, 2, 1, 1, 1, 2, 1, 1, 2, 
-1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 
+1, 1, 2, 1, 2, 1, 2, 2, 1, 2,
+2, 2, 1, 2, 1, 1, 1, 1, 2, 2,
+1, 1, 1, 2, 2, 1, 2, 2, 1, 2,
+2, 2, 1, 2, 1, 1, 2, 2, 2, 2,
+1, 2, 2, 2, 1, 1, 1, 2, 2, 2,
+2, 1, 2, 1, 1, 1, 2, 1, 1, 2,
+1, 1, 1, 1, 1, 2, 2, 1, 1, 1,
 2, 1,
-2, 2, 2, 1, 1, 2, 1, 1, 2, 2, 
-2, 2, 2, 1, 2, 2, 2, 2, 1, 1, 
-1, 2, 1, 1, 2, 1, 1, 2, 2, 2, 
-2, 1, 2, 1, 1, 2, 2, 2, 2, 2, 
-1, 1, 2, 1, 1, 2, 1, 1, 2, 2, 
-1, 2, 2, 2, 2, 1, 1, 1, 2, 1, 
-1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 
+2, 2, 2, 1, 1, 2, 1, 1, 2, 2,
+2, 2, 2, 1, 2, 2, 2, 2, 1, 1,
+1, 2, 1, 1, 2, 1, 1, 2, 2, 2,
+2, 1, 2, 1, 1, 2, 2, 2, 2, 2,
+1, 1, 2, 1, 1, 2, 1, 1, 2, 2,
+1, 2, 2, 2, 2, 1, 1, 1, 2, 1,
+1, 1, 1, 2, 1, 1, 1, 1, 1, 2,
 2, 1,
-1, 1, 2, 1, 2, 1, 2, 2, 1, 2, 
-2, 2, 1, 2, 1, 1, 1, 1, 2, 2, 
-1, 1, 1, 2, 2, 1, 2, 2, 1, 2, 
-2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 
-1, 2, 2, 2, 1, 1, 1, 2, 2, 2, 
-2, 1, 2, 1, 1, 1, 2, 1, 1, 2, 
-1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 
+1, 1, 2, 1, 2, 1, 2, 2, 1, 2,
+2, 2, 1, 2, 1, 1, 1, 1, 2, 2,
+1, 1, 1, 2, 2, 1, 2, 2, 1, 2,
+2, 2, 1, 2, 1, 1, 2, 2, 2, 2,
+1, 2, 2, 2, 1, 1, 1, 2, 2, 2,
+2, 1, 2, 1, 1, 1, 2, 1, 1, 2,
+1, 1, 1, 1, 1, 2, 2, 1, 1, 1,
 2, 1)
 / selectionmode = list.trialsequence.currentindex
 </list>
@@ -6738,76 +6738,76 @@ This list contains the location congruence
 2 = target is left and points right/target is right and points left (incongruent)
 <list LocationCongruence>
 / items = (
-1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 
-1, 2, 2, 2, 1, 1, 1, 1, 1, 2, 
-2, 2, 1, 2, 1, 1, 1, 2, 1, 2, 
-1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 
-1, 2, 2, 2, 2, 2, 1, 1, 2, 2, 
-1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 
-2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 
+1, 1, 1, 1, 1, 2, 2, 2, 2, 1,
+1, 2, 2, 2, 1, 1, 1, 1, 1, 2,
+2, 2, 1, 2, 1, 1, 1, 2, 1, 2,
+1, 1, 2, 2, 1, 2, 2, 2, 1, 2,
+1, 2, 2, 2, 2, 2, 1, 1, 2, 2,
+1, 1, 2, 1, 2, 2, 2, 2, 2, 2,
+2, 2, 2, 1, 1, 1, 1, 2, 2, 2,
 2, 2,
-1, 1, 2, 2, 1, 2, 1, 1, 1, 2, 
-1, 2, 2, 2, 1, 2, 1, 2, 1, 1, 
-2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 
-1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 
-2, 1, 1, 2, 2, 1, 1, 2, 2, 2, 
-2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 
-2, 2, 2, 1, 2, 2, 1, 1, 1, 1, 
+1, 1, 2, 2, 1, 2, 1, 1, 1, 2,
+1, 2, 2, 2, 1, 2, 1, 2, 1, 1,
+2, 1, 2, 2, 1, 1, 1, 1, 1, 1,
+1, 2, 2, 2, 2, 1, 1, 2, 1, 1,
+2, 1, 1, 2, 2, 1, 1, 2, 2, 2,
+2, 1, 2, 1, 1, 2, 1, 1, 1, 1,
+2, 2, 2, 1, 2, 2, 1, 1, 1, 1,
 1, 1,
-1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 
-1, 2, 2, 2, 1, 1, 1, 1, 1, 2, 
-2, 2, 1, 2, 1, 1, 1, 2, 1, 2, 
-1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 
-1, 2, 2, 2, 2, 2, 1, 1, 2, 2, 
-1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 
-2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 
+1, 1, 1, 1, 1, 2, 2, 2, 2, 1,
+1, 2, 2, 2, 1, 1, 1, 1, 1, 2,
+2, 2, 1, 2, 1, 1, 1, 2, 1, 2,
+1, 1, 2, 2, 1, 2, 2, 2, 1, 2,
+1, 2, 2, 2, 2, 2, 1, 1, 2, 2,
+1, 1, 2, 1, 2, 2, 2, 2, 2, 2,
+2, 2, 2, 1, 1, 1, 1, 2, 2, 2,
 2, 2,
-1, 1, 2, 2, 1, 2, 1, 1, 1, 2, 
-1, 2, 2, 2, 1, 2, 1, 2, 1, 1, 
-2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 
-1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 
-2, 1, 1, 2, 2, 1, 1, 2, 2, 2, 
-2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 
-2, 2, 2, 1, 2, 2, 1, 1, 1, 1, 
+1, 1, 2, 2, 1, 2, 1, 1, 1, 2,
+1, 2, 2, 2, 1, 2, 1, 2, 1, 1,
+2, 1, 2, 2, 1, 1, 1, 1, 1, 1,
+1, 2, 2, 2, 2, 1, 1, 2, 1, 1,
+2, 1, 1, 2, 2, 1, 1, 2, 2, 2,
+2, 1, 2, 1, 1, 2, 1, 1, 1, 1,
+2, 2, 2, 1, 2, 2, 1, 1, 1, 1,
 1, 1)
 / selectionmode = list.trialsequence.currentindex
 </list>
 
-This list contains the predetermined fixation durations 
+This list contains the predetermined fixation durations
 <list TargetCueIsI>
 / items = (
-2625, 2505, 2101, 3587, 2636,3694, 3466, 3045, 2507, 2380, 2817, 
-3266, 2867, 2977, 2081, 2957, 2812, 3172, 3358, 3428, 2009, 3394, 
-2752, 2920, 2708, 2666, 2767, 3558, 2547, 3003, 2229, 2353, 3089, 
-2077, 3601, 3273, 2291, 2019, 2743, 2934, 3254, 2090, 2049, 3049, 
+2625, 2505, 2101, 3587, 2636,3694, 3466, 3045, 2507, 2380, 2817,
+3266, 2867, 2977, 2081, 2957, 2812, 3172, 3358, 3428, 2009, 3394,
+2752, 2920, 2708, 2666, 2767, 3558, 2547, 3003, 2229, 2353, 3089,
+2077, 3601, 3273, 2291, 2019, 2743, 2934, 3254, 2090, 2049, 3049,
 3088, 2233, 3045, 2233, 3552, 2367, 3657, 2607, 3152, 3381, 3565,
-2783, 3182, 3517, 3557, 3692, 2143, 2488, 2227, 2717, 2077, 2443, 
+2783, 3182, 3517, 3557, 3692, 2143, 2488, 2227, 2717, 2077, 2443,
 3161, 2333, 2616, 2618, 2080, 2603,
 
-3172, 3394, 2353, 2547, 2233, 2743, 3601, 2333, 3517, 2143, 3045, 
-2090, 2783, 2077, 2767, 2618, 2367, 3557, 3428, 2380, 2934, 2233, 
-2977, 2077, 2019, 3358, 2717, 3565, 2752, 2505, 2920, 2229, 2488, 
-2607, 2666, 2636, 3558, 3381, 2227, 3254, 3045, 3049, 3587, 2291, 
-2812, 3273, 3657, 2616, 2009, 2080, 3466, 3003, 2708, 3088, 2507, 
-2957, 2443, 2049, 2081, 3694, 3152, 3182, 2625, 2817, 2101, 3692, 
+3172, 3394, 2353, 2547, 2233, 2743, 3601, 2333, 3517, 2143, 3045,
+2090, 2783, 2077, 2767, 2618, 2367, 3557, 3428, 2380, 2934, 2233,
+2977, 2077, 2019, 3358, 2717, 3565, 2752, 2505, 2920, 2229, 2488,
+2607, 2666, 2636, 3558, 3381, 2227, 3254, 3045, 3049, 3587, 2291,
+2812, 3273, 3657, 2616, 2009, 2080, 3466, 3003, 2708, 3088, 2507,
+2957, 2443, 2049, 2081, 3694, 3152, 3182, 2625, 2817, 2101, 3692,
 2603, 3552, 3266, 3161, 2867, 3089,
 
 
-2625, 2505, 2101, 3587, 2636,3694, 3466, 3045, 2507, 2380, 2817, 
-3266, 2867, 2977, 2081, 2957, 2812, 3172, 3358, 3428, 2009, 3394, 
-2752, 2920, 2708, 2666, 2767, 3558, 2547, 3003, 2229, 2353, 3089, 
-2077, 3601, 3273, 2291, 2019, 2743, 2934, 3254, 2090, 2049, 3049, 
+2625, 2505, 2101, 3587, 2636,3694, 3466, 3045, 2507, 2380, 2817,
+3266, 2867, 2977, 2081, 2957, 2812, 3172, 3358, 3428, 2009, 3394,
+2752, 2920, 2708, 2666, 2767, 3558, 2547, 3003, 2229, 2353, 3089,
+2077, 3601, 3273, 2291, 2019, 2743, 2934, 3254, 2090, 2049, 3049,
 3088, 2233, 3045, 2233, 3552, 2367, 3657, 2607, 3152, 3381, 3565,
-2783, 3182, 3517, 3557, 3692, 2143, 2488, 2227, 2717, 2077, 2443, 
+2783, 3182, 3517, 3557, 3692, 2143, 2488, 2227, 2717, 2077, 2443,
 3161, 2333, 2616, 2618, 2080, 2603,
 
 
-3172, 3394, 2353, 2547, 2233, 2743, 3601, 2333, 3517, 2143, 3045, 
-2090, 2783, 2077, 2767, 2618, 2367, 3557, 3428, 2380, 2934, 2233, 
-2977, 2077, 2019, 3358, 2717, 3565, 2752, 2505, 2920, 2229, 2488, 
-2607, 2666, 2636, 3558, 3381, 2227, 3254, 3045, 3049, 3587, 2291, 
-2812, 3273, 3657, 2616, 2009, 2080, 3466, 3003, 2708, 3088, 2507, 
-2957, 2443, 2049, 2081, 3694, 3152, 3182, 2625, 2817, 2101, 3692, 
+3172, 3394, 2353, 2547, 2233, 2743, 3601, 2333, 3517, 2143, 3045,
+2090, 2783, 2077, 2767, 2618, 2367, 3557, 3428, 2380, 2934, 2233,
+2977, 2077, 2019, 3358, 2717, 3565, 2752, 2505, 2920, 2229, 2488,
+2607, 2666, 2636, 3558, 3381, 2227, 3254, 3045, 3049, 3587, 2291,
+2812, 3273, 3657, 2616, 2009, 2080, 3466, 3003, 2708, 3088, 2507,
+2957, 2443, 2049, 2081, 3694, 3152, 3182, 2625, 2817, 2101, 3692,
 2603, 3552, 3266, 3161, 2867, 3089)
 
 / selectionmode = list.trialsequence.currentindex
@@ -7198,7 +7198,7 @@ Note: for counterbalancing purposes valid spatial cue condition is divided into 
 	trial.validspatialcue1.insertstimulustime(picture.flanker4, (parameters.cue_duration+values.CT_IsI));
 	trial.validspatialcue1.insertstimulustime(shape.innerbox_left, (parameters.cue_duration + values.CT_ISI + parameters.target_duration));
 	trial.validspatialcue1.insertstimulustime(shape.innerbox_right, (parameters.cue_duration + values.CT_ISI + parameters.target_duration));
-]	
+]
 / stimulustimes = [0=cue1_outerbox, cue1_innerbox]
 / beginresponsetime = parameters.cue_duration+values.CT_IsI
 / response = timeout(parameters.responsewindow)
@@ -7547,12 +7547,12 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / skip = [ values.trial7recall1 != 0 ]
 / ontrialbegin = [
 	values.trial7recall1="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / ontrialend = [
-	values.trial7recall1=openended.trial7_recall_response1.response; 
-	values.recall_firstcharlatency=openended.trial7_recall_response1.firstcharlatency; 
+	values.trial7recall1=openended.trial7_recall_response1.response;
+	values.recall_firstcharlatency=openended.trial7_recall_response1.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response1.lastcharlatency;
 ]
 / size = (15%,3%)
@@ -7575,9 +7575,9 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial7recall2 != 0 ]
 / ontrialend = [
-	values.trial7recall2=openended.trial7_recall_response2.response; 
+	values.trial7recall2=openended.trial7_recall_response2.response;
 
-	values.recall_firstcharlatency=openended.trial7_recall_response2.firstcharlatency; 
+	values.recall_firstcharlatency=openended.trial7_recall_response2.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response2.lastcharlatency;
 ]
 / ontrialbegin = [
@@ -7612,8 +7612,8 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / ontrialbegin = [
 	values.trial7recall3="";
 
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7634,14 +7634,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial7recall4 != 0 ]
 / ontrialend = [
-	values.trial7recall4=openended.trial7_recall_response4.response; 
-	values.recall_firstcharlatency=openended.trial7_recall_response4.firstcharlatency; 
+	values.trial7recall4=openended.trial7_recall_response4.response;
+	values.recall_firstcharlatency=openended.trial7_recall_response4.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response4.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall4="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7662,14 +7662,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial7recall5 != 0 ]
 / ontrialend = [
-	values.trial7recall5=openended.trial7_recall_response5.response; 
-	values.recall_firstcharlatency=openended.trial7_recall_response5.firstcharlatency; 
+	values.trial7recall5=openended.trial7_recall_response5.response;
+	values.recall_firstcharlatency=openended.trial7_recall_response5.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response5.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall5="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -7691,14 +7691,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial7recall6 != 0 ]
 / ontrialend = [
-	values.trial7recall6=openended.trial7_recall_response6.response; 
-	values.recall_firstcharlatency=openended.trial7_recall_response6.firstcharlatency; 
+	values.trial7recall6=openended.trial7_recall_response6.response;
+	values.recall_firstcharlatency=openended.trial7_recall_response6.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response6.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall6="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7721,14 +7721,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial7recall7 != 0 ]
 / ontrialend = [
-	values.trial7recall7=openended.trial7_recall_response7.response; 
-	values.recall_firstcharlatency=openended.trial7_recall_response7.firstcharlatency; 
+	values.trial7recall7=openended.trial7_recall_response7.response;
+	values.recall_firstcharlatency=openended.trial7_recall_response7.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response7.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial7recall7="";
-	values.recall_firstcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_firstcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7749,14 +7749,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial7recall8 != 0 ]
 / ontrialend = [
-	values.trial7recall8=openended.trial7_recall_response8.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response8.firstcharlatency; 
+	values.trial7recall8=openended.trial7_recall_response8.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response8.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response8.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial7recall8="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7778,14 +7778,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial7recall9 != 0 ]
 / ontrialend = [
-	values.trial7recall9=openended.trial7_recall_response9.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response9.firstcharlatency; 
+	values.trial7recall9=openended.trial7_recall_response9.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response9.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response9.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall9="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7803,19 +7803,19 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect11_empty,shape.recallrect12_empty,shape.recallrect13_empty,shape.recallrect14_empty,shape.recallrect15_empty
 shape.recallrect16_empty,shape.recallrect17_empty,shape.recallrect18_empty,shape.recallrect19_empty,shape.recallrect20_empty,
-text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, 
+text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 ]
 / beginresponsetime = 0
 / skip = [ values.trial7recall10 != 0 ]
 /ontrialend = [
-	values.trial7recall10=openended.trial7_recall_response10.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response10.firstcharlatency; 
+	values.trial7recall10=openended.trial7_recall_response10.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response10.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response10.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial7recall10="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7839,14 +7839,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial7recall11 != 0 ]
 /ontrialend = [
-	values.trial7recall11=openended.trial7_recall_response11.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response11.firstcharlatency; 
+	values.trial7recall11=openended.trial7_recall_response11.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response11.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response11.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial7recall11="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7867,14 +7867,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1]
 / beginresponsetime = 0
 / skip = [ values.trial7recall12 != 0 ]
 / ontrialend = [
-	values.trial7recall12=openended.trial7_recall_response12.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response12.firstcharlatency; 
+	values.trial7recall12=openended.trial7_recall_response12.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response12.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response12.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall12="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -7897,14 +7897,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial7recall13 != 0 ]
 / ontrialend = [
-	values.trial7recall13=openended.trial7_recall_response13.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response13.firstcharlatency; 
+	values.trial7recall13=openended.trial7_recall_response13.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response13.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response13.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial7recall13="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7926,14 +7926,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1,
 / beginresponsetime = 0
 / skip = [ values.trial7recall14 != 0 ]
 / ontrialend = [
-	values.trial7recall14=openended.trial7_recall_response14.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response14.firstcharlatency; 
+	values.trial7recall14=openended.trial7_recall_response14.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response14.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response14.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall14="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7955,14 +7955,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1, ]
 / beginresponsetime = 0
 / skip = [ values.trial7recall15 != 0 ]
 / ontrialend = [
-	values.trial7recall15=openended.trial7_recall_response15.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response15.firstcharlatency; 
+	values.trial7recall15=openended.trial7_recall_response15.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response15.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response15.lastcharlatency;
 ]
 /ontrialbegin = [
 	values.trial7recall15="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -7984,14 +7984,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial7recall16 != 0 ]
 / ontrialend = [
-	values.trial7recall16=openended.trial7_recall_response16.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response16.firstcharlatency; 
+	values.trial7recall16=openended.trial7_recall_response16.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response16.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response16.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall16="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -8013,14 +8013,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / skip = [ values.trial7recall17 != 0 ]
 / beginresponsetime = 0
 / ontrialend = [
-	values.trial7recall17=openended.trial7_recall_response17.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response17.firstcharlatency; 
+	values.trial7recall17=openended.trial7_recall_response17.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response17.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response17.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall17="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -8042,14 +8042,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial7recall18 != 0 ]
 / ontrialend = [
-	values.trial7recall18=openended.trial7_recall_response18.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response18.firstcharlatency; 
+	values.trial7recall18=openended.trial7_recall_response18.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response18.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response18.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall18="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -8072,14 +8072,14 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 / beginresponsetime = 0
 / skip = [ values.trial7recall19 != 0 ]
 / ontrialend = [
-	values.trial7recall19=openended.trial7_recall_response19.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response19.firstcharlatency; 
+	values.trial7recall19=openended.trial7_recall_response19.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response19.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response19.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall19="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 / size = (15%,3%)
 / multiline = false
@@ -8095,20 +8095,20 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1
 /stimulusframes = [1=shape.recallrect1_full,shape.recallrect2_full,shape.recallrect3_full,shape.recallrect4_full,
 shape.recallrect5_full,shape.recallrect6_full,shape.recallrect7_full,shape.recallrect8_full,shape.recallrect9_full
 shape.recallrect10_full,shape.recallrect11_full,shape.recallrect12_full,shape.recallrect13_full,shape.recallrect14_full,
-shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full, 
+shape.recallrect15_full,shape.recallrect16_full,shape.recallrect17_full,shape.recallrect18_full,shape.recallrect19_full,
 text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 ]
 / beginresponsetime = 0
 / skip = [ values.trial7recall20 != 0 ]
 / ontrialend = [
-	values.trial7recall20=openended.trial7_recall_response20.response; 
-	values.recall_lastcharlatency=openended.trial7_recall_response20.firstcharlatency; 
+	values.trial7recall20=openended.trial7_recall_response20.response;
+	values.recall_lastcharlatency=openended.trial7_recall_response20.firstcharlatency;
 	values.recall_lastcharlatency=openended.trial7_recall_response20.lastcharlatency;
 ]
 / ontrialbegin = [
 	values.trial7recall20="";
-	values.recall_lastcharlatency= 0; 
-	values.recall_lastcharlatency= 0;	
+	values.recall_lastcharlatency= 0;
+	values.recall_lastcharlatency= 0;
 ]
 
 / size = (15%,3%)
@@ -8182,7 +8182,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 
 <text End2>
 /items = ("This is a pilot of a neurocognitive task that is assessing memory and attention.
-~nThis task will be used to help us better understand PTSD in War Veterans. 
+~nThis task will be used to help us better understand PTSD in War Veterans.
 ~nNot all veterans are getting the care that works best for them.")
 /halign = center
 /valign = top
@@ -8195,7 +8195,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 
 <text End3>
 /items = ("This is a pilot of a neurocognitive task that is assessing memory and attention.
-~nThis task will be used to help us better understand PTSD in War Veterans. 
+~nThis task will be used to help us better understand PTSD in War Veterans.
 ~nNot all veterans are getting the care that works best for them.
 ~nOur goal is to ensure veterans are getting the most effective and personalized treatment, and your participation in this task has helped us move towards reaching that goal!")
 /halign = center
@@ -8226,7 +8226,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 
 <text end_questionnaires3>
 /items = ("Next, we ask that you answer several questions.
-~nSome questions will be ask about your mood and feelings in the past month or past 2 weeks. 
+~nSome questions will be ask about your mood and feelings in the past month or past 2 weeks.
 ~nOthers will ask about your daily routine.")
 /halign = center
 /valign = top
@@ -8237,7 +8237,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 
 <text end_questionnaires4>
 /items = ("Next, we ask that you answer several questions.
-~nThese questions will ask about your mood and feelings in the past month or past 2 weeks. 
+~nThese questions will ask about your mood and feelings in the past month or past 2 weeks.
 ~nOthers will ask about your daily routine.
 ~nBe sure to read the instructions carefully!")
 /halign = center
@@ -8249,7 +8249,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 
 <text end_questionnaires5>
 /items = ("Next, we ask that you answer several questions.
-~nThese questions will ask about your mood and feelings in the past month or past 2 weeks. 
+~nThese questions will ask about your mood and feelings in the past month or past 2 weeks.
 ~nOthers will ask about your daily routine.
 ~nBe sure to read the instructions carefully!
 ~nThank you for your participation!!")
@@ -8264,28 +8264,28 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 /stimulustimes = [0=text.End, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 </trial>
 
 <trial End1>
 /stimulustimes = [0=text.End1, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 </trial>
 
 <trial End2>
 /stimulustimes = [0=text.End2, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 </trial>
 
 <trial End3>
 /stimulustimes = [0=text.End3, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 
 </trial>
 
@@ -8293,7 +8293,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 /stimulustimes = [0=text.end_questionnaires, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 
 </trial>
 
@@ -8301,7 +8301,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 /stimulustimes = [0=text.end_questionnaires2, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 
 </trial>
 
@@ -8309,7 +8309,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 /stimulustimes = [0=text.end_questionnaires3, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 
 </trial>
 
@@ -8317,7 +8317,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 /stimulustimes = [0=text.end_questionnaires4, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 
 </trial>
 
@@ -8325,7 +8325,7 @@ text.press_enter1, text.press_enter2, text.trial1_recall_instruct1;
 /stimulustimes = [0=text.end_questionnaires5, text.spacebar_to_continue]
 / response = anyresponse
 / validresponse = (57)
-/ beginresponsetime = 500 
+/ beginresponsetime = 500
 
 </trial>
 
@@ -8508,8 +8508,8 @@ FORM 4
 
 <radiobuttons gender>
 /caption = "What is your gender?"
-/options = ("Female", 
-"Male", 
+/options = ("Female",
+"Male",
 "I prefer not to answer this question")
 /other = "Other (please specify):"
 /required = true
@@ -8533,9 +8533,9 @@ FORM 4
 
 <radiobuttons ethnicity>
 /caption = "What is your ethnicity?"
-/ options = ("Hispanic or Latino (a person of Cuban, Mexican, Puerto Rican, 
-Cuban, South or Central American, or other Spanish culture or origin, regardless of race)", 
-"Not Hispanic or Latino", 
+/ options = ("Hispanic or Latino (a person of Cuban, Mexican, Puerto Rican,
+Cuban, South or Central American, or other Spanish culture or origin, regardless of race)",
+"Not Hispanic or Latino",
 "I prefer not to answer this question")
 /required = true
 /orientation = vertical
@@ -8545,16 +8545,16 @@ Cuban, South or Central American, or other Spanish culture or origin, regardless
 / caption = "What is your race? Mark one or more races to indicate what you consider yourself to be."
 / required = true
 / options = (
- "American Indian or Alaska Native (a person having origins in any of the original peoples 
-  of North and South America (including Central America) who maintains cultural 
+ "American Indian or Alaska Native (a person having origins in any of the original peoples
+  of North and South America (including Central America) who maintains cultural
   identification through tribal affiliation or community attachment)",
- "~nAsian (a person having origins in any of the original peoples of the Far East, Southeast 
-  Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, 
-  Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam)", 
+ "~nAsian (a person having origins in any of the original peoples of the Far East, Southeast
+  Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan,
+  Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam)",
  "~nBlack or African American (a person having origins in any of the black racial groups of Africa)",
- "~nNative Hawaiian or Other Pacific Islander (a person having origins in any of the 
+ "~nNative Hawaiian or Other Pacific Islander (a person having origins in any of the
   original peoples of Hawaii, Guam, Samoa, or other Pacific Islands)",
- "~nWhite (a person having origins in any of the original peoples of Europe, the Middle East, 
+ "~nWhite (a person having origins in any of the original peoples of Europe, the Middle East,
   or North Africa)",
  "~nI prefer not to answer this question")
 /orientation = vertical
@@ -8563,7 +8563,7 @@ Cuban, South or Central American, or other Spanish culture or origin, regardless
 
 <radiobuttons education>
 /caption = "What is the highest degree or level of schooling you have completed? If currently enrolled, highest degree received so far."
-/ options = (    
+/ options = (
 "Doctoral or professional degree",
 "Master's degree",
 "Bachelor's degree",
@@ -8593,7 +8593,7 @@ Cuban, South or Central American, or other Spanish culture or origin, regardless
 
 <radiobuttons native_english>
 /caption = "Is English your native language?"
-/ options = ("Yes", 
+/ options = ("Yes",
 "No")
 /required = true
 /orientation = vertical
@@ -8806,7 +8806,7 @@ TYPING TEST
 / responsefontstyle = ("Arial",2%)
 / recorddata = true
 / required = true
-/ iscorrectresponse = 
+/ iscorrectresponse =
 [(length(openended.typing_test_openended_sentence1.response) == 44 || length(openended.typing_test_openended_sentence1.response) == ("43") || length(openended.typing_test_openended_sentence1.response) == ("45"));]
 / buttonlabel = ""
 / charlimit = 100
@@ -9407,36 +9407,36 @@ END SURVEY
 / onblockend = [
 
 	values.end_survey_completed = 1;
-	
-	values.pcl_4_sum = 
-	radiobuttons.pcl_dsm4_q1.selectedvalue + radiobuttons.pcl_dsm4_q2.selectedvalue + radiobuttons.pcl_dsm4_q3.selectedvalue + radiobuttons.pcl_dsm4_q4.selectedvalue + 
-	radiobuttons.pcl_dsm4_q5.selectedvalue + radiobuttons.pcl_dsm4_q6.selectedvalue + radiobuttons.pcl_dsm4_q7.selectedvalue + radiobuttons.pcl_dsm4_q8.selectedvalue + 
-	radiobuttons.pcl_dsm4_q9.selectedvalue + radiobuttons.pcl_dsm4_q10.selectedvalue + radiobuttons.pcl_dsm4_q11.selectedvalue + radiobuttons.pcl_dsm4_q12.selectedvalue + 
+
+	values.pcl_4_sum =
+	radiobuttons.pcl_dsm4_q1.selectedvalue + radiobuttons.pcl_dsm4_q2.selectedvalue + radiobuttons.pcl_dsm4_q3.selectedvalue + radiobuttons.pcl_dsm4_q4.selectedvalue +
+	radiobuttons.pcl_dsm4_q5.selectedvalue + radiobuttons.pcl_dsm4_q6.selectedvalue + radiobuttons.pcl_dsm4_q7.selectedvalue + radiobuttons.pcl_dsm4_q8.selectedvalue +
+	radiobuttons.pcl_dsm4_q9.selectedvalue + radiobuttons.pcl_dsm4_q10.selectedvalue + radiobuttons.pcl_dsm4_q11.selectedvalue + radiobuttons.pcl_dsm4_q12.selectedvalue +
 	radiobuttons.pcl_dsm4_q13.selectedvalue + radiobuttons.pcl_dsm4_q14.selectedvalue + radiobuttons.pcl_dsm4_q16.selectedvalue + radiobuttons.pcl_dsm4_q17.selectedvalue;
-	
-	values.pcl_sum_hybrid_uncorrected = 
-	radiobuttons.pcl_dsm4_q1.selectedvalue + radiobuttons.pcl_dsm4_q2.selectedvalue + radiobuttons.pcl_dsm4_q3.selectedvalue + radiobuttons.pcl_dsm4_q4.selectedvalue + 
-	radiobuttons.pcl_dsm4_q5.selectedvalue + radiobuttons.pcl_dsm4_q6.selectedvalue + radiobuttons.pcl_dsm4_q7.selectedvalue + radiobuttons.pcl_dsm4_q8.selectedvalue + 
-	radiobuttons.pcl_dsm4_q9.selectedvalue + radiobuttons.pcl_dsm4_q10.selectedvalue + radiobuttons.pcl_dsm4_q11.selectedvalue + radiobuttons.pcl_dsm4_q12.selectedvalue + 
-	radiobuttons.pcl_dsm4_q13.selectedvalue + radiobuttons.pcl_dsm4_q14.selectedvalue + radiobuttons.pcl_dsm4_q16.selectedvalue + radiobuttons.pcl_dsm4_q17.selectedvalue + 
+
+	values.pcl_sum_hybrid_uncorrected =
+	radiobuttons.pcl_dsm4_q1.selectedvalue + radiobuttons.pcl_dsm4_q2.selectedvalue + radiobuttons.pcl_dsm4_q3.selectedvalue + radiobuttons.pcl_dsm4_q4.selectedvalue +
+	radiobuttons.pcl_dsm4_q5.selectedvalue + radiobuttons.pcl_dsm4_q6.selectedvalue + radiobuttons.pcl_dsm4_q7.selectedvalue + radiobuttons.pcl_dsm4_q8.selectedvalue +
+	radiobuttons.pcl_dsm4_q9.selectedvalue + radiobuttons.pcl_dsm4_q10.selectedvalue + radiobuttons.pcl_dsm4_q11.selectedvalue + radiobuttons.pcl_dsm4_q12.selectedvalue +
+	radiobuttons.pcl_dsm4_q13.selectedvalue + radiobuttons.pcl_dsm4_q14.selectedvalue + radiobuttons.pcl_dsm4_q16.selectedvalue + radiobuttons.pcl_dsm4_q17.selectedvalue +
 	radiobuttons.pcl_dsm5_q19.selectedvalue + radiobuttons.pcl_dsm5_q20.selectedvalue + radiobuttons.pcl_dsm5_q21.selectedvalue + radiobuttons.pcl_dsm5_q24.selectedvalue;
-	
+
 	values.pcl_sum_hybrid_corrected = (radiobuttons.pcl_dsm4_q1.selectedvalue - 1) + (radiobuttons.pcl_dsm4_q2.selectedvalue - 1) + (radiobuttons.pcl_dsm4_q3.selectedvalue -1) +
 	(radiobuttons.pcl_dsm4_q4.selectedvalue -1) + (radiobuttons.pcl_dsm4_q5.selectedvalue - 1) + (radiobuttons.pcl_dsm4_q6.selectedvalue -1) + (radiobuttons.pcl_dsm4_q7.selectedvalue -1) +
 	(radiobuttons.pcl_dsm4_q8.selectedvalue -1) + (radiobuttons.pcl_dsm4_q9.selectedvalue -1) + (radiobuttons.pcl_dsm4_q10.selectedvalue - 1) + (radiobuttons.pcl_dsm4_q11.selectedvalue - 1) +
 	(radiobuttons.pcl_dsm4_q12.selectedvalue -1) + (radiobuttons.pcl_dsm4_q13.selectedvalue - 1) + (radiobuttons.pcl_dsm4_q14.selectedvalue - 1) + (radiobuttons.pcl_dsm4_q16.selectedvalue - 1) +
-	(radiobuttons.pcl_dsm4_q17.selectedvalue - 1) + radiobuttons.pcl_dsm5_q19.selectedvalue + radiobuttons.pcl_dsm5_q20.selectedvalue + radiobuttons.pcl_dsm5_q21.selectedvalue + 
+	(radiobuttons.pcl_dsm4_q17.selectedvalue - 1) + radiobuttons.pcl_dsm5_q19.selectedvalue + radiobuttons.pcl_dsm5_q20.selectedvalue + radiobuttons.pcl_dsm5_q21.selectedvalue +
 	radiobuttons.pcl_dsm5_q24.selectedvalue;
-	
-	
-	values.phq_sum = radiobuttons.phq_q1.selectedvalue + radiobuttons.phq_q2.selectedvalue + radiobuttons.phq_q3.selectedvalue + 
-	radiobuttons.phq_q4.selectedvalue + radiobuttons.phq_q5.selectedvalue + radiobuttons.phq_q6.selectedvalue + radiobuttons.phq_q7.selectedvalue + 
+
+
+	values.phq_sum = radiobuttons.phq_q1.selectedvalue + radiobuttons.phq_q2.selectedvalue + radiobuttons.phq_q3.selectedvalue +
+	radiobuttons.phq_q4.selectedvalue + radiobuttons.phq_q5.selectedvalue + radiobuttons.phq_q6.selectedvalue + radiobuttons.phq_q7.selectedvalue +
 	radiobuttons.phq_q8.selectedvalue;
-	
-	values.gad_7_sum = radiobuttons.gad_7_q1.selectedvalue + radiobuttons.gad_7_q2.selectedvalue + 
+
+	values.gad_7_sum = radiobuttons.gad_7_q1.selectedvalue + radiobuttons.gad_7_q2.selectedvalue +
 	radiobuttons.gad_7_q3.selectedvalue  + radiobuttons.gad_7_q4.selectedvalue + radiobuttons.gad_7_q5.selectedvalue +
 	radiobuttons.gad_7_q6.selectedvalue + radiobuttons.gad_7_q7.selectedvalue;
-	
+
 ]
 
 </survey>
@@ -9528,7 +9528,7 @@ END SURVEY
 </text>
 
 <trial rest_eeg>
-/ stimulusframes = [1=fixation_cross] 
+/ stimulusframes = [1=fixation_cross]
 / trialduration=60000
 </trial>
 
@@ -9589,34 +9589,32 @@ END SURVEY
 	values.experiment_completed = 1;
 ]
 / blocks = [
-1=demographics_survey;
-2=block.rey_trial1_pres_instruct;
-3=block.rey_trial1_pres_1a;
-4=block.rey_trial1_recall;
-5=block.rey_trial2_pres_instruct;
-6=block.rey_trial2_pres_1a;
-7=block.rey_trial2_recall;
-8=block.rey_trial3_pres_instruct;
-9=block.rey_trial3_pres_1a;
-10=block.rey_trial3_recall;
-11=block.rey_trial4_pres_instruct;
-12=block.rey_trial4_pres_1a;
-13=block.rey_trial4_recall;
-14=block.rey_trial5_pres_instruct;
-15=block.rey_trial5_pres_1a;
-16=block.rey_trial5_recall;
-17=block.rey_listb_pres_instruct;
-18=block.rey_listb_pres_1b;
-19=block.rey_listb_recall;
-20=block.rey_trial6_pres_instruct;
-21=block.rey_trial6_recall;
-22=block.rest_eeg_rec;
-23=block.rest_eeg_reo;
-24=block.rest_eeg_end;
-25=block.rey_trial7_pres_instruct;
-26=block.rey_trial7_recall;
-27=block.typing_test;
-28=survey.rey_ant_survey;
+1=block.rey_trial1_pres_instruct;
+2=block.rey_trial1_pres_1a;
+3=block.rey_trial1_recall;
+4=block.rey_trial2_pres_instruct;
+5=block.rey_trial2_pres_1a;
+6=block.rey_trial2_recall;
+7=block.rey_trial3_pres_instruct;
+8=block.rey_trial3_pres_1a;
+9=block.rey_trial3_recall;
+10=block.rey_trial4_pres_instruct;
+11=block.rey_trial4_pres_1a;
+12=block.rey_trial4_recall;
+13=block.rey_trial5_pres_instruct;
+14=block.rey_trial5_pres_1a;
+15=block.rey_trial5_recall;
+16=block.rey_listb_pres_instruct;
+17=block.rey_listb_pres_1b;
+18=block.rey_listb_recall;
+19=block.rey_trial6_pres_instruct;
+20=block.rey_trial6_recall;
+21=block.rest_eeg_rec;
+22=block.rest_eeg_reo;
+23=block.rest_eeg_end;
+24=block.rey_trial7_pres_instruct;
+25=block.rey_trial7_recall;
+26=block.typing_test;
 ]
 </expt>
 
@@ -9634,34 +9632,32 @@ END SURVEY
 	values.experiment_completed = 1;
 ]
 / blocks = [
-1=demographics_survey;
-2=block.rey_trial1_pres_instruct;
-3=block.rey_trial1_pres_2a;
-4=block.rey_trial1_recall;
-5=block.rey_trial2_pres_instruct;
-6=block.rey_trial2_pres_2a;
-7=block.rey_trial2_recall;
-8=block.rey_trial3_pres_instruct;
-9=block.rey_trial3_pres_2a;
-10=block.rey_trial3_recall;
-11=block.rey_trial4_pres_instruct;
-12=block.rey_trial4_pres_2a;
-13=block.rey_trial4_recall;
-14=block.rey_trial5_pres_instruct;
-15=block.rey_trial5_pres_2a;
-16=block.rey_trial5_recall;
-17=block.rey_listb_pres_instruct;
-18=block.rey_listb_pres_2b;
-19=block.rey_listb_recall;
-20=block.rey_trial6_pres_instruct;
-21=block.rey_trial6_recall;
-22=block.rest_eeg_rec;
-23=block.rest_eeg_reo;
-24=block.rest_eeg_end;
-25=block.rey_trial7_pres_instruct;
-26=block.rey_trial7_recall;
-27=block.typing_test;
-28=survey.rey_ant_survey;
+1=block.rey_trial1_pres_instruct;
+2=block.rey_trial1_pres_2a;
+3=block.rey_trial1_recall;
+4=block.rey_trial2_pres_instruct;
+5=block.rey_trial2_pres_2a;
+6=block.rey_trial2_recall;
+7=block.rey_trial3_pres_instruct;
+8=block.rey_trial3_pres_2a;
+9=block.rey_trial3_recall;
+10=block.rey_trial4_pres_instruct;
+11=block.rey_trial4_pres_2a;
+12=block.rey_trial4_recall;
+13=block.rey_trial5_pres_instruct;
+14=block.rey_trial5_pres_2a;
+15=block.rey_trial5_recall;
+16=block.rey_listb_pres_instruct;
+17=block.rey_listb_pres_2b;
+18=block.rey_listb_recall;
+19=block.rey_trial6_pres_instruct;
+20=block.rey_trial6_recall;
+21=block.rest_eeg_rec;
+22=block.rest_eeg_reo;
+23=block.rest_eeg_end;
+24=block.rey_trial7_pres_instruct;
+25=block.rey_trial7_recall;
+26=block.typing_test;
 ]
 </expt>
 
@@ -9678,34 +9674,32 @@ END SURVEY
 	values.experiment_completed = 1;
 ]
 / blocks = [
-1=demographics_survey;
-2=block.rey_trial1_pres_instruct;
-3=block.rey_trial1_pres_3a;
-4=block.rey_trial1_recall;
-5=block.rey_trial2_pres_instruct;
-6=block.rey_trial2_pres_3a;
-7=block.rey_trial2_recall;
-8=block.rey_trial3_pres_instruct;
-9=block.rey_trial3_pres_3a;
-10=block.rey_trial3_recall;
-11=block.rey_trial4_pres_instruct;
-12=block.rey_trial4_pres_3a;
-13=block.rey_trial4_recall;
-14=block.rey_trial5_pres_instruct;
-15=block.rey_trial5_pres_3a;
-16=block.rey_trial5_recall;
-17=block.rey_listb_pres_instruct;
-18=block.rey_listb_pres_3b;
-19=block.rey_listb_recall;
-20=block.rey_trial6_pres_instruct;
-21=block.rey_trial6_recall;
-22=block.rest_eeg_rec;
-23=block.rest_eeg_reo;
-24=block.rest_eeg_end;
-25=block.rey_trial7_pres_instruct;
-26=block.rey_trial7_recall;
-27=block.typing_test;
-28=survey.rey_ant_survey;
+1=block.rey_trial1_pres_instruct;
+2=block.rey_trial1_pres_3a;
+3=block.rey_trial1_recall;
+4=block.rey_trial2_pres_instruct;
+5=block.rey_trial2_pres_3a;
+6=block.rey_trial2_recall;
+7=block.rey_trial3_pres_instruct;
+8=block.rey_trial3_pres_3a;
+9=block.rey_trial3_recall;
+10=block.rey_trial4_pres_instruct;
+11=block.rey_trial4_pres_3a;
+12=block.rey_trial4_recall;
+13=block.rey_trial5_pres_instruct;
+14=block.rey_trial5_pres_3a;
+15=block.rey_trial5_recall;
+16=block.rey_listb_pres_instruct;
+17=block.rey_listb_pres_3b;
+18=block.rey_listb_recall;
+19=block.rey_trial6_pres_instruct;
+20=block.rey_trial6_recall;
+21=block.rest_eeg_rec;
+22=block.rest_eeg_reo;
+23=block.rest_eeg_end;
+24=block.rey_trial7_pres_instruct;
+25=block.rey_trial7_recall;
+26=block.typing_test;
 ]
 </expt>
 
@@ -9721,38 +9715,36 @@ END SURVEY
 	values.experiment_completed = 1;
 ]
 / blocks = [
-1=demographics_survey;
-2=block.rey_trial1_pres_instruct;
-3=block.rey_trial1_pres_4a;
-4=block.rey_trial1_recall;
-5=block.rey_trial2_pres_instruct;
-6=block.rey_trial2_pres_4a;
-7=block.rey_trial2_recall;
-8=block.rey_trial3_pres_instruct;
-9=block.rey_trial3_pres_4a;
-10=block.rey_trial3_recall;
-11=block.rey_trial4_pres_instruct;
-12=block.rey_trial4_pres_4a;
-13=block.rey_trial4_recall;
-14=block.rey_trial5_pres_instruct;
-15=block.rey_trial5_pres_4a;
-16=block.rey_trial5_recall;
-17=block.rey_listb_pres_instruct;
-18=block.rey_listb_pres_4b;
-19=block.rey_listb_recall;
-20=block.rey_trial6_pres_instruct;
-21=block.rey_trial6_recall;
-22=block.rest_eeg_rec;
-23=block.rest_eeg_reo;
-24=block.rest_eeg_end;
-25=block.rey_trial7_pres_instruct;
-26=block.rey_trial7_recall;
-27=block.typing_test;
-28=survey.rey_ant_survey;
+1=block.rey_trial1_pres_instruct;
+2=block.rey_trial1_pres_4a;
+3=block.rey_trial1_recall;
+4=block.rey_trial2_pres_instruct;
+5=block.rey_trial2_pres_4a;
+6=block.rey_trial2_recall;
+7=block.rey_trial3_pres_instruct;
+8=block.rey_trial3_pres_4a;
+9=block.rey_trial3_recall;
+10=block.rey_trial4_pres_instruct;
+11=block.rey_trial4_pres_4a;
+12=block.rey_trial4_recall;
+13=block.rey_trial5_pres_instruct;
+14=block.rey_trial5_pres_4a;
+15=block.rey_trial5_recall;
+16=block.rey_listb_pres_instruct;
+17=block.rey_listb_pres_4b;
+18=block.rey_listb_recall;
+19=block.rey_trial6_pres_instruct;
+20=block.rey_trial6_recall;
+21=block.rest_eeg_rec;
+22=block.rest_eeg_reo;
+23=block.rest_eeg_end;
+24=block.rey_trial7_pres_instruct;
+25=block.rey_trial7_recall;
+26=block.typing_test;
 ]
 </expt>
 
 
 *******************************************************************************************************************
 												End of File
-*******************************************************************************************************************								  
+*******************************************************************************************************************
