@@ -17,10 +17,14 @@ def composite_scores(get_comp_scores,input_csv,output_csv):
     scored_data = pandas.read_csv(input_csv)
 
     if get_comp_scores == 1:
-        df_trials=scored_data.loc[:,'trial1':'trial7']
+        df_trials=scored_data.loc[:,'subj_id':'trial7']
         composite_scores=pandas.DataFrame()
         tmp=pandas.DataFrame()
+
+        composite_scores[['subj_id','list_type']]=df_trials[['subj_id','list_type']]
+
         composite_scores['total_learning']=df_trials[['trial1', 'trial2', 'trial3', 'trial4', 'trial5']].apply(lambda row: np.sum(row),axis=1)
+
         tmp['test']=df_trials[['trial1']]*5
 
         composite_scores['corrected_total_learning']=composite_scores['total_learning'].subtract(tmp['test'])
@@ -28,19 +32,7 @@ def composite_scores(get_comp_scores,input_csv,output_csv):
         composite_scores['learning_rate']=df_trials['trial5'].subtract(df_trials['trial1'],axis='rows')
         composite_scores['proactive_interference']=df_trials['trial1'].subtract(scored_data['listb'],axis='rows')
         composite_scores['retroactive_interference']=df_trials['trial5'].subtract(df_trials['trial6'],axis='rows')
-
         composite_scores['forgetting_and_retention']=df_trials['trial5'].subtract(df_trials['trial7'],axis='rows')
-
-        composite_scores_transposed=composite_scores.transpose()
-
-        composite_scores_transposed.to_csv(output_csv,header=True,index=['measure','score'])
+        # composite_scores_transposed=composite_scores.transpose()
+        #composite_scores_transposed.to_csv(output_csv,header=True,index=['measure','score'])
         composite_scores.to_csv(output_csv,header=True,index=['measure','score'])
-
-#columns=('measure','score')
-#		composite_scores_transposed=pandas.DataFrame(data=composite_scores, index=['measure','score']).transpose()
-
-	#composite_scores['alternative_proactive_interference']=    df_trials['trial6'].divide(df_trials['trial1'],axis='rows')
-
-
-	#composite_scores['alternative_learning_rate']=df_trials['trial5'].divide(df_trials['trial1'],axis='rows')
-
