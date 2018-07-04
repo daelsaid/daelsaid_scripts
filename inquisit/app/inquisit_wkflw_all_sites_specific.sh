@@ -2,9 +2,16 @@
 
 
 ## needs python 2.7, panda, numpy
+
+
 #path definitions
-grader_script="/Users/lillyel-said/Desktop/stanford/scripts/inquisit/final/argparse"
-inquisit_dir='/Volumes/quincy/inquisit/'
+#path to grader script
+grader_script="/Users/lillyel-said/Desktop/inquisit/scripts/grader/"
+
+#main inquisit directory
+inquisit_dir='/Users/lillyel-said/Desktop/inquisit/'
+
+#task directory where data output lives and the task scripts are located
 data_output_path="${inquisit_dir}/inquisit_task"
 tp1_script_path="${inquisit_dir}/inquisit_task/task_script"
 tp2_script_path="${inquisit_dir}/inquisit_task/task_script_by_form"
@@ -14,17 +21,38 @@ tp2_script_path="${inquisit_dir}/inquisit_task/task_script_by_form"
 list_types=($(seq 1 1 4))
 subj_id=$1
 timepoint=$2
-initial_list=$3
+site=$3
+initial_list=$4
 
-dir_id=best_${subj_id}_tp${timepoint}
-main_dir_id=best_${subj_id}_tp${timepoint}_inquisit
-full_subj_path=${data_output_path}/participant_data/${main_dir_id}
-log_file=${full_subj_path}/out/log.txt
+#site name for new mexico is newmex
+#site name for emory is emoryu
+
+
+# dir_id=best_${subj_id}_tp${timepoint}
+# main_dir_id=best_${subj_id}_tp${timepoint}_inquisit
+# full_subj_path=${data_output_path}/participant_data/${main_dir_id}
+# log_file=${full_subj_path}/out/log.txt
 
 #makes data directories
 cd ${data_output_path}/participant_data
-mkdir ${full_subj_path};
-mkdir ${full_subj_path}/csv ${full_subj_path}/raw ${full_subj_path}/out;
+if [ `echo ${site}| wc -l` -gt 0 ]; then
+	dir_id=best_${site}_${subj_id}_tp${timepoint}
+	main_dir_id=best_${site}_${subj_id}_tp${timepoint}_inquisit
+	full_subj_path=${data_output_path}/participant_data/${main_dir_id}
+	log_file=${full_subj_path}/out/log.txt
+	cd ${data_output_path}/participant_data
+	mkdir ${full_subj_path};
+	mkdir ${full_subj_path}/csv ${full_subj_path}/raw ${full_subj_path}/out;
+else
+	dir_id=best_${subj_id}_tp${timepoint}
+	main_dir_id=best_${subj_id}_tp${timepoint}_inquisit
+	full_subj_path=${data_output_path}/participant_data/${main_dir_id}
+	log_file=${full_subj_path}/out/log.txt
+	cd ${data_output_path}/participant_data
+	mkdir ${full_subj_path};
+	mkdir ${full_subj_path}/csv ${full_subj_path}/raw ${full_subj_path}/out;
+fi
+
 
 #runs the inquisit script
 cd ${full_subj_path};
