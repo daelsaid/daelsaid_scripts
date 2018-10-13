@@ -7,31 +7,28 @@ import scipy.stats.stats as st
 from matplotlib.backends.backend_pdf import PdfPages
 
 
-scored_data=pandas.read_csv(scored_data)
+scored_data = pandas.read_csv(scored_data)
 
-#scored_data=pandas.read_csv('/Volumes/daelsaid/inquisit/INQUISIT_RERUN/all_launches_dir/scored/clean_copies/scored_data_2017_07_01_newageranges_comb_mturk.csv')
+# scored_data=pandas.read_csv('/Volumes/daelsaid/inquisit/INQUISIT_RERUN/all_launches_dir/scored/clean_copies/scored_data_2017_07_01_newageranges_comb_mturk.csv')
 #
-#patient_scored=pandas.read_csv('/Volumes/daelsaid/inquisit/INQUISIT_RERUN/all_launches_dir/scored/clean_copies/scored_data_2017_07_19_patients.csv')
-
+# patient_scored=pandas.read_csv('/Volumes/daelsaid/inquisit/INQUISIT_RERUN/all_launches_dir/scored/clean_copies/scored_data_2017_07_19_patients.csv')
 
 
 # colors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue','cyan', '#E1396C', '#96D38C', '#FEBFB3']
 
 
-
 def make_datatype_dir(data_type, output_path):
-    if data_type='pt':
+    if data_type = 'pt':
         if not os.path.isdir(args.output_path):
             os.chdir(args.output_path)
             os.mkdir(args.output_csv_location)
 
 
-
-
 def age_by_gender_subplots(data, fig_out, output):
-    columns=[c for c in y]
-    bins=(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)
-    colors =  ['lightskyblue','lightskyblue','lightskyblue','lightskyblue','lightskyblue','#96D38C', '#E1396C','#E1396C']
+    columns = [c for c in y]
+    bins = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
+    colors = ['lightskyblue', 'lightskyblue', 'lightskyblue',
+        'lightskyblue', 'lightskyblue', '#96D38C', '#E1396C', '#E1396C']
 
    y=['trial1', 'trial2', 'trial3', 'trial4', 'trial5', 'listb', 'trial6', 'trial7']
 
